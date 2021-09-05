@@ -24,7 +24,7 @@ int	main(int argc, char **argv)
 	list_a = get_list(a, argc - 1);
 	print_list(list_a);
 	simple_sort(list_a);
+	printf("----------\n");
 	print_list(list_a);
-	printf("assss");
 	return (0);
 }

@@ -9,7 +9,7 @@ void simple_sort(t_list	*a)
 	if (a->value < a->next->value && a->value < a->next->next->value)
 	{
 		ra(a);
-		sa(a);
-		rra(a);
+		//sa(a);
+		//rra(a);
 	}
 }

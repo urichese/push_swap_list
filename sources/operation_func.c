@@ -24,7 +24,7 @@ void	ra(t_list *a)
 	t_list	*x;
 
 	x = a;
-	a = a->next;
+	*a = *(a->next);
 	ft_lstadd_back(&a, x);
 }
 

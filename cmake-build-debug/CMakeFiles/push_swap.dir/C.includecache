@@ -6,21 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/urichese/Desktop/push_swap-main/libft/libft.h
+/Users/a1234/CLionProjects/push_swap_list/libft/libft.h
 unistd.h
 -
 stdlib.h
 -
 
-/Users/urichese/Desktop/push_swap-main/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap_list/sources/operation_func.c
+stdio.h
+-
+stdlib.h
+-
+push_swap.h
+/Users/a1234/CLionProjects/push_swap_list/sources/push_swap.h
+
+/Users/a1234/CLionProjects/push_swap_list/sources/push_swap.h
 stdio.h
 -
 stdlib.h
 -
 ../libft/libft.h
-/Users/urichese/Desktop/push_swap-main/libft/libft.h
-
-/Users/urichese/Desktop/push_swap-main/sources/simple_sort.c
-push_swap.h
-/Users/urichese/Desktop/push_swap-main/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap_list/libft/libft.h
 
