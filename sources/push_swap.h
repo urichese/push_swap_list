@@ -5,14 +5,14 @@
 # include <stdlib.h>
 # include "../libft/libft.h"
 
-void	sa(t_list *a);
-void	sb(t_list *b);
-void	ra(t_list *a);
-void	rb(t_list *b);
-void	rra(t_list *a);
-void	rrb(t_list *b);
-void	pa(t_list *a, t_list *b);
-void	pb(t_list *a, t_list *b);
+void	sa(t_list **a);
+void	sb(t_list **b);
+void	ra(t_list **a);
+void	rb(t_list **b);
+void	rra(t_list **a);
+void	rrb(t_list **b);
+void	pa(t_list **a, t_list **b);
+void	pb(t_list **a, t_list **b);
 int		*check(int argc, char **argv);
 int		ft_isnumber(const char *str);
 char	**put_ins(char **ins, char *name);
@@ -24,7 +24,7 @@ void 	ft_swap(int *a, int *b);
 int 	*copy(int *a, int len);
 t_list	*get_list(int *a, int len);
 void	print_list(t_list	*a);
-void	simple_sort(t_list	*a);
+void	simple_sort(t_list	**a, t_list	**b);
 //void	libft/ft_putstr_fd(char *s, int fd);
 
 #endif

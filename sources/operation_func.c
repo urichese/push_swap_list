@@ -2,62 +2,66 @@
 #include <stdlib.h>
 #include "push_swap.h"
 
-void	sa(t_list *a)
+void	sa(t_list **p)
 {
 	t_list	*x;
 	t_list	*y;
+	t_list	*a;
 
-
+	a = *p;
 	x = a;
 	y = a->next;
 	x->next = y->next;
 	y->next = x;
+	*p = y;
 }
 
-void	sb(t_list *a)
+void	sb(t_list **a)
 {
 	sa(a);
 }
 
-void	ra(t_list *a)
+void	ra(t_list **p)
 {
 	t_list	*x;
+	t_list	*a;
 
+	a = *p;
 	x = a;
-	*a = *(a->next);
+	*p = a->next;
 	ft_lstadd_back(&a, x);
 }
 
-void	rb(t_list *b)
+void	rb(t_list **b)
 {
 	ra(b);
 }
 
-void	rra(t_list *a)
+void	rra(t_list **a)
 {
 	t_list	*x;
 
-	x = ft_lstlast(a);
-	ft_lstadd_front(&a, x);
+	x = ft_lstlast(*a);
+	ft_lstadd_front(a, x);
 }
 
-void	rrb(t_list *b)
+void	rrb(t_list **b)
 {
 	rra(b);
 }
 
-void	pa(t_list *a, t_list *b)
+void	pa(t_list **a, t_list **b)
 {
 	t_list	*b_element;
 
-	if (ft_lstsize(b) == 0)
+	if (ft_lstsize(*b) == 0)
 		return ;
-	b_element = b;
-	b = b_element->next;
-	ft_lstadd_front(&a, b_element);
+	b_element = *b;
+	*b = b_element->next;
+	ft_lstadd_front(a, b_element);
 }
 
-void	pb(t_list *a, t_list *b)
+void	pb(t_list **a, t_list **b)
 {
 	pa(b, a);
 }
