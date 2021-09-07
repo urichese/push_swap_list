@@ -4,22 +4,11 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 {
 	int		i;
 	int		j;
-	t_list	*a;
-	t_list	*b;
+	t_base_list	*base;
 
-	if (ft_lstsize(*p_a) == 3)
-	{
-		sort_3(p_a);
-		return ;
-	}
-	if (ft_lstsize(*p_a) == 4)
-	{
-		sort_4(p_a, p_b);
-		return ;
-	}
-	if (ft_lstsize(*p_a) == 5)
-	{
-		sort_5(p_a, p_b);
-		return ;
-	}
+	base = malloc(sizeof (t_base_list));
+	base->next = 1;
+	base->flag = 0;
+	base->max = ft_lstsize(*p_a);
+	base->mid = base->max/2 + next;
 }

@@ -5,6 +5,14 @@
 # include <stdlib.h>
 # include "../libft/libft.h"
 
+typedef struct s_base_list
+{
+	int				next;
+	int 			mid;
+	int 			max;
+	int 			flag;
+}				t_base_list;
+
 void	sa(t_list **a);
 void	sb(t_list **b);
 void	ra(t_list **a);
