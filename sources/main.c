@@ -23,7 +23,10 @@ int	main(int argc, char **argv)
 	list_a = get_list(a, argc - 1);
 	printf("in:\n");
 	print_list(list_a);
-	simple_sort(&list_a, &list_b);
+	if(ft_lstsize(list_a) < 5)
+		simple_sort(&list_a, &list_b);
+	else
+		quick_sort(&list_a, &list_b);
 
 	printf("----------\n");
 	printf("sorted:\n");

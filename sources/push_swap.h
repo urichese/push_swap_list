@@ -25,6 +25,7 @@ int 	*copy(int *a, int len);
 t_list	*get_list(int *a, int len);
 void	print_list(t_list	*a);
 void	simple_sort(t_list	**a, t_list	**b);
+void 	quick_sort(t_list	**p_a, t_list	**p_b);
 //void	libft/ft_putstr_fd(char *s, int fd);
 
 #endif
