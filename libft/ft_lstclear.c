@@ -1,9 +1,9 @@
 #include "libft.h"
 
-void	ft_lstclear(t_list **lst, void (*del)(void*))
+void	ft_lstclear(t_list **lst)
 {
 	if ((*lst)->next)
-		ft_lstclear(&(*lst)->next, del);
+		ft_lstclear(&(*lst)->next);
 	ft_lstdelone(*lst, del);
 	*lst = NULL;
 }
