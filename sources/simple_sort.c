@@ -32,7 +32,7 @@ void simple_sort(t_list	**p, t_list	**p_b)
 		pa(p, p_b);
 		pa(p, p_b);
 		ra(p);
-		ra(p); // 5 elen
+		//ra(p); // 5 elen
 	}
 	if (b->value > a->next->value )
 	{
