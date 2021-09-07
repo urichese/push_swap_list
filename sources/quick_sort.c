@@ -15,6 +15,7 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 {
 	int i;
 	int j;
+	int	f;
 	t_base_list *base;
 
 	base = malloc(sizeof(t_base_list));
@@ -23,32 +24,47 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 	base->max = ft_lstsize(*p_a);
 	base->mid = base->max / 2 + base->next;
 	i = ft_lstsize(*p_a);
+
 	while (i-- > 0)
 	{
 		if ((*p_a)->value > (ft_lstfind(*p_a, base->mid))->value)
 			ra(p_a);
 		else
 			pb(p_a, p_b);
-		j = ft_lstsize(*p_b);
-		while (j-- > 0)
+		f = (*p_a)->flag;
+		while (f != 0)
 		{
-			base->max = base->mid;
-			base->mid = (base->max - base->next) / 2 + base->next;
-			base->flag++;
-			if ((*p_b)->value > (ft_lstfind(*p_a, base->mid))->value)
-				rb(p_b);
-			else
+			f = (*p_a)->flag;
+			while (f == (*p_a)->flag)
 			{
-				(*p_b)->flag = base->flag;
-				pa(p_a, p_b);
-				if ((*p_a)->order == base->next)
+				pb(p_a, p_b);
+				while (ft_lstsize(*p_b) != 0)
 				{
-					ra(p_a);
-					base->next++;
+					j = ft_lstsize(*p_b);
+					while (j-- > 0)
+					{
+						base->max = base->mid;
+						base->mid = (base->max - base->next) / 2 + base->next;
+						base->flag++;
+						if ((*p_b)->value > (ft_lstfind(*p_a, base->mid))->value)
+							rb(p_b);
+						else
+						{
+							(*p_b)->flag = base->flag;
+							pa(p_a, p_b);
+							if ((*p_a)->order == base->next)
+							{
+								ra(p_a);
+								base->next++;
+							}
+						}
+
+					}
 				}
 			}
-
 		}
-
+		base->max = base->mid;
+		base->mid = (base->max - base->next) / 2 + base->next;
+		i = ft_lstsize(*p_a);
 	}
 }

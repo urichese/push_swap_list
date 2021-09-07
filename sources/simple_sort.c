@@ -1,4 +1,14 @@
 #include "push_swap.h"
+
+void sort_2(t_list	**p)
+{
+	t_list	*a;
+
+	a = *p;
+	if (a->value > a->next->value)
+		sa(p);
+}
+
 void sort_3(t_list	**p)
 {
 	t_list	*a;
@@ -112,6 +122,11 @@ void simple_sort(t_list	**p_a, t_list	**p_b)
 	t_list	*a;
 	t_list	*b;
 
+	if (ft_lstsize(*p_a) == 2)
+	{
+		sort_2(p_a);
+		return ;
+	}
 	if (ft_lstsize(*p_a) == 3)
 	{
 		sort_3(p_a);
