@@ -17,13 +17,16 @@ int	main(int argc, char **argv)
 	}
 	if (is_sorted(a, argc - 1) == 1)
 	{
-		printf("sorted"); //
+		printf("sorted"); // redu
 		return (0);
 	}
 	list_a = get_list(a, argc - 1);
+	printf("in:\n");
 	print_list(list_a);
 	simple_sort(&list_a, &list_b);
+
 	printf("----------\n");
+	printf("sorted:\n");
 	print_list(list_a);
 	printf("----------\n");
 	print_list(list_b);
