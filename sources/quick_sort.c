@@ -23,7 +23,7 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 	base->flag = 0;
 	base->max = ft_lstsize(*p_a);
 	base->mid = base->max / 2 + base->next;
-	i = ft_lstsize(*p_a) - base->next + 1;
+	i = ft_lstsize(*p_a);
 	while (i-- > 0)
 	{
 		if ((*p_a)->order >  base->mid)
@@ -36,13 +36,18 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 		i = ft_lstsize(*p_a) - base->next + 1;
 		while (i-- > 0)
 		{
-			if ((*p_a)->order ==  base->next ) // если след элемент то вниз
-			{
-				ra(p_a);
-				base->next++;
-			}
 			if ((*p_a)->order <=  base->mid ) // заполняем б
 				pb(p_a, p_b);
+			else
+				ra(p_a);
+		}
+		i = ft_lstsize(*p_a) - base->next + 1;
+		while (i-- > 0)
+		{
+			if ((*p_b)->order != base->next)
+				rrr(p_a, p_b);
+			else
+				rra(p_a);
 		}
 		f = 1;
 		while (f != 0)
@@ -75,17 +80,15 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 			f = (*p_a)->flag;
 			while (f == (*p_a)->flag  && f != 0)
 			{
-			pb(p_a, p_b);
-			}
-			f = (*p_a)->flag;
-			while (f == (*p_a)->flag && f != 0)
-			{
 				pb(p_a, p_b);
 			}
-			f = (*p_a)->flag;
 		}
 		base->max = base->mid;
 		base->mid = (base->max - base->next) / 2 + base->next;
-
+		while ((*p_a)->order ==  base->next ) // если след элемент то вниз
+		{
+			ra(p_a);
+			base->next++;
+		}
 	}
 }

@@ -50,6 +50,11 @@ void	rrb(t_list **b)
 	rra(b);
 }
 
+void	rrr(t_list **a, t_list **b)
+{
+	rra(a);
+	rra(b);
+}
 void	pa(t_list **a, t_list **b)
 {
 	t_list	*b_element;
