@@ -31,6 +31,7 @@ int	main(int argc, char **argv)
 	printf("sorted:\n");
 	print_list(list_a);
 	printf("----------\n");
+	printf("b:\n");
 	print_list(list_b);
 	return (0);
 }

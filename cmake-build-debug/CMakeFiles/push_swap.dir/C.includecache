@@ -12,10 +12,6 @@ unistd.h
 stdlib.h
 -
 
-/Users/urichese/Desktop/push_swap_list/sources/parse_func.c
-push_swap.h
-/Users/urichese/Desktop/push_swap_list/sources/push_swap.h
-
 /Users/urichese/Desktop/push_swap_list/sources/push_swap.h
 stdio.h
 -
@@ -23,4 +19,8 @@ stdlib.h
 -
 ../libft/libft.h
 /Users/urichese/Desktop/push_swap_list/libft/libft.h
+
+/Users/urichese/Desktop/push_swap_list/sources/quick_sort.c
+push_swap.h
+/Users/urichese/Desktop/push_swap_list/sources/push_swap.h
 
