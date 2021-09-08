@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/sources/main.c.o"
   "CMakeFiles/push_swap.dir/sources/operation_func.c.o"
   "CMakeFiles/push_swap.dir/sources/parse_func.c.o"
+  "CMakeFiles/push_swap.dir/sources/quick_sort.c.o"
   "CMakeFiles/push_swap.dir/sources/simple_sort.c.o"
   "push_swap"
   "push_swap.pdb"

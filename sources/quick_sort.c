@@ -1,14 +1,14 @@
 #include "push_swap.h"
 
-t_list	*ft_lstfind(t_list *a, int v)
+int is_lstsorted(t_list	*a)
 {
 	while (a)
 	{
-		if (a->order == v)
-			return (a);
+		if (a->order > a->next->order)
+			return (0);
 		a = a->next;
 	}
-	return (NULL);
+	return (1);
 }
 
 void quick_sort(t_list	**p_a, t_list	**p_b)
@@ -24,13 +24,16 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 	base->max = ft_lstsize(*p_a);
 	base->mid = base->max / 2 + base->next;
 	i = ft_lstsize(*p_a);
-
-	while (i-- > 0)
+	while (is_lstsorted(*p_a) == 0)
 	{
-		if ((*p_a)->value > (ft_lstfind(*p_a, base->mid))->value)
-			ra(p_a);
-		else
-			pb(p_a, p_b);
+		while (i-- > 0)
+		{
+			if ((*p_a)->order >  base->mid)
+				ra(p_a);
+			else
+				pb(p_a, p_b);
+			f = (*p_a)->flag;
+		}
 		f = (*p_a)->flag;
 		while (f != 0)
 		{
@@ -46,7 +49,7 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 						base->max = base->mid;
 						base->mid = (base->max - base->next) / 2 + base->next;
 						base->flag++;
-						if ((*p_b)->value > (ft_lstfind(*p_a, base->mid))->value)
+						if ((*p_b)->order > base->mid)
 							rb(p_b);
 						else
 						{
@@ -65,6 +68,5 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 		}
 		base->max = base->mid;
 		base->mid = (base->max - base->next) / 2 + base->next;
-		i = ft_lstsize(*p_a);
 	}
 }

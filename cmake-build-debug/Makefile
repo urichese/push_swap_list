@@ -585,6 +585,30 @@ sources/parse_func.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func.c.s
 .PHONY : sources/parse_func.c.s
 
+sources/quick_sort.o: sources/quick_sort.c.o
+.PHONY : sources/quick_sort.o
+
+# target to build an object file
+sources/quick_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/quick_sort.c.o
+.PHONY : sources/quick_sort.c.o
+
+sources/quick_sort.i: sources/quick_sort.c.i
+.PHONY : sources/quick_sort.i
+
+# target to preprocess a source file
+sources/quick_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/quick_sort.c.i
+.PHONY : sources/quick_sort.c.i
+
+sources/quick_sort.s: sources/quick_sort.c.s
+.PHONY : sources/quick_sort.s
+
+# target to generate assembly for a file
+sources/quick_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/quick_sort.c.s
+.PHONY : sources/quick_sort.c.s
+
 sources/simple_sort.o: sources/simple_sort.c.o
 .PHONY : sources/simple_sort.o
 
@@ -675,6 +699,9 @@ help:
 	@echo "... sources/parse_func.o"
 	@echo "... sources/parse_func.i"
 	@echo "... sources/parse_func.s"
+	@echo "... sources/quick_sort.o"
+	@echo "... sources/quick_sort.i"
+	@echo "... sources/quick_sort.s"
 	@echo "... sources/simple_sort.o"
 	@echo "... sources/simple_sort.i"
 	@echo "... sources/simple_sort.s"

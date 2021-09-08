@@ -138,6 +138,9 @@
 		<Unit filename="/Users/urichese/Desktop/push_swap_list/sources/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/urichese/Desktop/push_swap_list/sources/quick_sort.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/urichese/Desktop/push_swap_list/sources/simple_sort.c">
 			<Option target="push_swap"/>
 		</Unit>

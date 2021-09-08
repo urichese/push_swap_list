@@ -27,6 +27,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/urichese/Desktop/push_swap_list/sources/main.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/main.c.o"
   "/Users/urichese/Desktop/push_swap_list/sources/operation_func.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/operation_func.c.o"
   "/Users/urichese/Desktop/push_swap_list/sources/parse_func.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parse_func.c.o"
+  "/Users/urichese/Desktop/push_swap_list/sources/quick_sort.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/quick_sort.c.o"
   "/Users/urichese/Desktop/push_swap_list/sources/simple_sort.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/simple_sort.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

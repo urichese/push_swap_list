@@ -63,6 +63,10 @@ CMakeFiles/push_swap.dir/sources/parse_func.c.o: \
  ../libft/libft.h \
  ../sources/parse_func.c \
  ../sources/push_swap.h
+CMakeFiles/push_swap.dir/sources/quick_sort.c.o: \
+ ../libft/libft.h \
+ ../sources/push_swap.h \
+ ../sources/quick_sort.c
 CMakeFiles/push_swap.dir/sources/simple_sort.c.o: \
  ../libft/libft.h \
  ../sources/push_swap.h \

@@ -65,7 +65,7 @@ int get_order(int *a, int len, int c)
 	while (i < len)
 	{
 		if (a[i] == c)
-			return (i);
+			return (i + 1);
 		i++;
 	}
 	return (i);
