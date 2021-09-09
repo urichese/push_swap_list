@@ -16,21 +16,15 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 	int i;
 	int j;
 	int	f;
+	int	len;
 	t_base_list *base;
 
+	len = ft_lstsize(*p_a);
 	base = malloc(sizeof(t_base_list));
 	base->next = 1;
 	base->flag = 0;
-	base->max = ft_lstsize(*p_a);
+	base->max = len;
 	base->mid = base->max / 2 + base->next;
-	i = ft_lstsize(*p_a);
-	while (i-- > 0)
-	{
-		if ((*p_a)->order >  base->mid)
-			ra(p_a);
-		else
-			pb(p_a, p_b);
-	}
 	while (is_lstsorted(*p_a) == 0)
 	{
 		i = ft_lstsize(*p_a) - base->next + 1;
@@ -44,7 +38,7 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 		i = ft_lstsize(*p_a) - base->next + 1;
 		while (i-- > 0)
 		{
-			if ((*p_b)->order != base->next)
+			if ((*p_b) != NULL && (*p_b)->order != base->next)
 				rrr(p_a, p_b);
 			else
 				rra(p_a);
@@ -83,7 +77,7 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 				pb(p_a, p_b);
 			}
 		}
-		base->max = base->mid;
+		base->max = len;
 		base->mid = (base->max - base->next) / 2 + base->next;
 		while ((*p_a)->order ==  base->next ) // если след элемент то вниз
 		{

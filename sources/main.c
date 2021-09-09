@@ -3,7 +3,7 @@
 int	main(int argc, char **argv)
 {
 	int	*a;
-	char	**ins;
+	//char	**ins;
 	t_list	*list_a;
 	t_list	*list_b;
 

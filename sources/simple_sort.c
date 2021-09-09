@@ -117,11 +117,6 @@ void sort_5(t_list	**p, t_list	**p_b)
 }
 void simple_sort(t_list	**p_a, t_list	**p_b)
 {
-	int		i;
-	int		j;
-	t_list	*a;
-	t_list	*b;
-
 	if (ft_lstsize(*p_a) == 2)
 	{
 		sort_2(p_a);

@@ -26,7 +26,6 @@ int partition(int *a, int low, int high)
 {
 	int	pivot;
 	int	i;
-	int j;
 
 	pivot = low - 1;
 	i = low;
