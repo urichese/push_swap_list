@@ -28,15 +28,15 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 	while (is_lstsorted(*p_a) == 0)
 	{
 		i = ft_lstsize(*p_a) - base->next + 1;
-		while (i-- > 0)
+		while (i-- > 0) // заполняем б
 		{
-			if ((*p_a)->order <=  base->mid ) // заполняем б
+			if ((*p_a)->order <=  base->mid )
 				pb(p_a, p_b);
 			else
 				ra(p_a);
 		}
 		i = ft_lstsize(*p_a) - base->next + 1;
-		while (i-- > 0)
+		while (i-- > 0) // крутим назад
 		{
 			if ((*p_b) != NULL && (*p_b)->order != base->next)
 				rrr(p_a, p_b);
@@ -44,15 +44,15 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 				rra(p_a);
 		}
 		f = 1;
-		while (f != 0)
+		while (f != 0) // цикл закидывания обратно тех массив что уже были в б
 		{
-			while (ft_lstsize(*p_b) != 0)
+			while (ft_lstsize(*p_b) != 0) // обработка пока не закончатся в б
 			{
 				base->max = base->mid;
 				base->mid = (base->max - base->next) / 2 + base->next;
 				base->flag++;
 				j = ft_lstsize(*p_b);
-				while (j-- > 0)
+				while (j-- > 0) // обработка самого б
 				{
 					if ((*p_b)->order > base->mid)
 						rb(p_b);
@@ -68,11 +68,11 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 					}
 
 				}
-				if (base->max == base->next)
-					break ;
+				//if (base->max == base->next)
+				//	break ;
 			}
 			f = (*p_a)->flag;
-			while (f == (*p_a)->flag  && f != 0)
+			while (f == (*p_a)->flag  && f != 0) // перекидывание кучи что были
 			{
 				pb(p_a, p_b);
 			}

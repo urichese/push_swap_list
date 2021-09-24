@@ -1,17 +1,17 @@
 #include "push_swap.h"
 
-void ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-	int tmp;
+	int	tmp;
 
 	tmp = *a;
 	*a = *b;
 	*b = tmp;
 }
-int *copy(int *a, int len)
+int	*copy(int *a, int len)
 {
-	int i;
-	int *a_sorted;
+	int	i;
+	int	*a_sorted;
 
 	a_sorted = malloc(sizeof (int) * len);
 	i = 0;
@@ -22,14 +22,15 @@ int *copy(int *a, int len)
 	}
 	return (a_sorted);
 }
-int partition(int *a, int low, int high)
+
+int	partition(int *a, int low, int high)
 {
 	int	pivot;
 	int	i;
 
 	pivot = low - 1;
 	i = low;
-	while(i < high)
+	while (i < high)
 	{
 		if (a[i] < a[high])
 		{
@@ -40,12 +41,12 @@ int partition(int *a, int low, int high)
 	}
 	pivot++;
 	ft_swap(&a[pivot], &a[high]);
-	return pivot;
+	return (pivot);
 }
 
-int *quick_sort_array(int *a, int low, int high)
+int	*quick_sort_array(int *a, int low, int high)
 {
-	int p;
+	int	p;
 
 	if (low < high)
 	{
@@ -53,12 +54,12 @@ int *quick_sort_array(int *a, int low, int high)
 		quick_sort_array(a, low, p - 1);
 		quick_sort_array(a, p + 1, high);
 	}
-	return a;
+	return (a);
 }
 
-int get_order(int *a, int len, int c)
+int	get_order(int *a, int len, int c)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (i < len)
@@ -72,14 +73,12 @@ int get_order(int *a, int len, int c)
 
 t_list	*get_list(int *a, int len)
 {
-	int	i;
+	int		i;
 	t_list	*list;
 	t_list	*tmp;
-	int *a_sorted;
-
+	int		*a_sorted;
 
 	a_sorted = copy(a, len);
-
 	a_sorted = quick_sort_array(a_sorted, 0, len - 1);
 	i = 0;
 	tmp = ft_lstnew(a[i], get_order(a_sorted, len, a[i]));
@@ -91,7 +90,7 @@ t_list	*get_list(int *a, int len)
 		tmp = tmp->next;
 	}
 	tmp->next = NULL;
-	return list;
+	return (list);
 }
 
 void	print_list(t_list	*a)

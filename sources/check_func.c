@@ -33,7 +33,7 @@ int 	*check(int argc, char **argv)
 	return (a);
 }
 
-int		ft_isnumber(const char *str)
+int	ft_isnumber(const char *str)
 {
 	size_t			i;
 
@@ -49,9 +49,9 @@ int		ft_isnumber(const char *str)
 	return (1);
 }
 
-int is_sorted(int *a, int len)
+int	is_sorted(int *a, int len)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (i < len - 1)
