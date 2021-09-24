@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-int is_lstsorted(t_list	*a)
+int	is_lstsorted(t_list	*a)
 {
 	while (a != NULL && a->next != NULL)
 	{
@@ -11,13 +11,13 @@ int is_lstsorted(t_list	*a)
 	return (1);
 }
 
-void quick_sort(t_list	**p_a, t_list	**p_b)
+void	quick_sort(t_list	**p_a, t_list	**p_b)
 {
-	int i;
-	int j;
-	int	f;
-	int	len;
-	t_base_list *base;
+	int			i;
+	int			j;
+	int			f;
+	int			len;
+	t_base_list	*base;
 
 	len = ft_lstsize(*p_a);
 	base = malloc(sizeof(t_base_list));
@@ -30,7 +30,7 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 		i = ft_lstsize(*p_a) - base->next + 1;
 		while (i-- > 0) // заполняем б
 		{
-			if ((*p_a)->order <=  base->mid )
+			if ((*p_a)->order <= base->mid)
 				pb(p_a, p_b);
 			else
 				ra(p_a);
@@ -66,7 +66,6 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 							base->next++;
 						}
 					}
-
 				}
 				//if (base->max == base->next)
 				//	break ;
@@ -79,7 +78,7 @@ void quick_sort(t_list	**p_a, t_list	**p_b)
 		}
 		base->max = len;
 		base->mid = (base->max - base->next) / 2 + base->next;
-		while ((*p_a)->order ==  base->next ) // если след элемент то вниз
+		while ((*p_a)->order ==  base->next) // если след элемент то вниз
 		{
 			ra(p_a);
 			base->next++;

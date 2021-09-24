@@ -2,7 +2,7 @@
 
 int	main(int argc, char **argv)
 {
-	int	*a;
+	int		*a;
 	//char	**ins;
 	t_list	*list_a;
 	t_list	*list_b;
@@ -23,7 +23,7 @@ int	main(int argc, char **argv)
 	list_a = get_list(a, argc - 1);
 	printf("in:\n");
 	print_list(list_a);
-	if(ft_lstsize(list_a) > 5)
+	if (ft_lstsize(list_a) > 5)
 		quick_sort(&list_a, &list_b);
 	else
 		simple_sort(&list_a, &list_b);

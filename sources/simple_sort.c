@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-void sort_2(t_list	**p)
+void	sort_2(t_list	**p)
 {
 	t_list	*a;
 
@@ -9,7 +9,7 @@ void sort_2(t_list	**p)
 		sa(p);
 }
 
-void sort_3(t_list	**p)
+void	sort_3(t_list	**p)
 {
 	t_list	*a;
 
@@ -39,7 +39,7 @@ void sort_3(t_list	**p)
 	}
 }
 
-void sort_4(t_list	**p, t_list	**p_b)
+void	sort_4(t_list	**p, t_list	**p_b)
 {
 	t_list	*a;
 	t_list	*b;
@@ -48,14 +48,14 @@ void sort_4(t_list	**p, t_list	**p_b)
 	sort_3(p);
 	a = *p;
 	b = *p_b;
-	if (b->value > a->next->next->value )
+	if (b->value > a->next->next->value)
 	{
 		pa(p, p_b);
 		pa(p, p_b);
 		ra(p);
 		return ;
 	}
-	if (b->value > a->next->value )
+	if (b->value > a->next->value)
 	{
 		rra(p);
 		pa(p, p_b);
@@ -63,17 +63,17 @@ void sort_4(t_list	**p, t_list	**p_b)
 		ra(p);
 		return ;
 	}
-	if (b->value > a->value )
+	if (b->value > a->value)
 	{
 		pa(p, p_b);
 		sa(p);
 		return ;
 	}
-	if (b->value < a->value )
+	if (b->value < a->value)
 		pa(p, p_b);
 }
 
-void sort_5(t_list	**p, t_list	**p_b)
+void	sort_5(t_list	**p, t_list	**p_b)
 {
 	t_list	*a;
 	t_list	*b;
@@ -115,7 +115,8 @@ void sort_5(t_list	**p, t_list	**p_b)
 	if (b->value < a->value)
 		pa(p, p_b);
 }
-void simple_sort(t_list	**p_a, t_list	**p_b)
+
+void	simple_sort(t_list	**p_a, t_list	**p_b)
 {
 	if (ft_lstsize(*p_a) == 2)
 	{

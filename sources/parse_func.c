@@ -8,6 +8,7 @@ void	ft_swap(int *a, int *b)
 	*a = *b;
 	*b = tmp;
 }
+
 int	*copy(int *a, int len)
 {
 	int	i;

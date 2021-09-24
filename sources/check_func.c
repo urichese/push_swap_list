@@ -2,10 +2,10 @@
 
 int 	*check(int argc, char **argv)
 {
-	int	i;
-	int	j;
+	int		i;
+	int		j;
 	long	c;
-	int	*a;
+	int		*a;
 
 	a = malloc(sizeof (*a) * (argc - 1));
 	if (a == NULL)
