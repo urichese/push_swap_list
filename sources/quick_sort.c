@@ -71,14 +71,14 @@ void	quick_sort(t_list	**p_a, t_list	**p_b)
 				//	break ;
 			}
 			f = (*p_a)->flag;
-			while (f == (*p_a)->flag  && f != 0) // перекидывание кучи что были
+			while (f == (*p_a)->flag && f != 0) // перекидывание кучи что были
 			{
 				pb(p_a, p_b);
 			}
 		}
 		base->max = len;
 		base->mid = (base->max - base->next) / 2 + base->next;
-		while ((*p_a)->order ==  base->next) // если след элемент то вниз
+		while ((*p_a)->order == base->next) // если след элемент то вниз
 		{
 			ra(p_a);
 			base->next++;

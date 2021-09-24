@@ -3,7 +3,6 @@
 int	main(int argc, char **argv)
 {
 	int		*a;
-	//char	**ins;
 	t_list	*list_a;
 	t_list	*list_b;
 
@@ -17,7 +16,7 @@ int	main(int argc, char **argv)
 	}
 	if (is_sorted(a, argc - 1) == 1)
 	{
-		printf("sorted"); // redu
+		printf("sorted"); // redo
 		return (0);
 	}
 	list_a = get_list(a, argc - 1);
