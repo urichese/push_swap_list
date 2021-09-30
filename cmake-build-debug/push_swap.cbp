@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug"/>
+				<Option working_dir="/Users/a1234/CLionProjects/aa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug"/>
+				<Option working_dir="/Users/a1234/CLionProjects/aa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug"/>
+				<Option working_dir="/Users/a1234/CLionProjects/aa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap">
-				<Option output="/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug"/>
+				<Option output="/Users/a1234/CLionProjects/aa/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/a1234/CLionProjects/aa/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap/fast">
-				<Option output="/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug"/>
+				<Option output="/Users/a1234/CLionProjects/aa/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/a1234/CLionProjects/aa/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,86 +71,86 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/a1234/CLionProjects/aa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_atoi.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_atoi.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_bzero.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_bzero.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_calloc.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_calloc.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_isdigit.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_isdigit.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_isspace_bonus.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_isspace_bonus.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_lstadd_back.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_lstadd_back.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_lstadd_front.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_lstadd_front.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_lstlast.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_lstlast.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_lstnew.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_lstnew.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_lstsize.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_lstsize.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_memset.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_memset.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_putchar_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_putnbr_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/libft/ft_putstr_fd.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/libft/ft_putstr_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/check_func.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/check_func.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/instruction_func.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/instruction_func.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/main.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/main.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/operation_func.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/operation_func.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/operation_func2.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/operation_func2.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/parse_func.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/parse_func.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/parse_func2.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/parse_func2.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/push_swap.h">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/quick_sort.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/quick_sort.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/simple_sort.c">
+		<Unit filename="/Users/a1234/CLionProjects/aa/sources/simple_sort.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/CMakeLists.txt">
+		<Unit filename="/Users/a1234/CLionProjects/aa/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
