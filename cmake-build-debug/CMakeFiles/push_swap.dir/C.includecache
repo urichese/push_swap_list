@@ -6,117 +6,117 @@
 
 #IncludeRegexTransform: 
 
-/Users/a1234/CLionProjects/aa/libft/ft_atoi.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_atoi.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_bzero.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_bzero.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_calloc.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_calloc.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_isdigit.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_isdigit.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_isspace_bonus.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_isspace_bonus.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_lstadd_back.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_lstadd_back.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_lstadd_front.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_lstadd_front.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_lstlast.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_lstlast.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_lstnew.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_lstnew.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_lstsize.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_lstsize.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_memset.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_memset.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_putchar_fd.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_putchar_fd.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_putnbr_fd.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_putnbr_fd.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/ft_putstr_fd.c
+/Users/a1234/CLionProjects/push_swap/libft/ft_putstr_fd.c
 libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 unistd.h
 -
 stdlib.h
 -
 
-/Users/a1234/CLionProjects/aa/sources/check_func.c
+/Users/a1234/CLionProjects/push_swap/sources/check_func.c
 push_swap.h
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
-/Users/a1234/CLionProjects/aa/sources/instruction_func.c
+/Users/a1234/CLionProjects/push_swap/sources/instruction_func.c
 push_swap.h
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
-/Users/a1234/CLionProjects/aa/sources/main.c
+/Users/a1234/CLionProjects/push_swap/sources/main.c
 push_swap.h
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
-/Users/a1234/CLionProjects/aa/sources/operation_func.c
+/Users/a1234/CLionProjects/push_swap/sources/operation_func.c
 stdio.h
 -
 stdlib.h
 -
 push_swap.h
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
-/Users/a1234/CLionProjects/aa/sources/operation_func2.c
+/Users/a1234/CLionProjects/push_swap/sources/operation_func2.c
 stdio.h
 -
 stdlib.h
 -
 push_swap.h
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
-/Users/a1234/CLionProjects/aa/sources/parse_func.c
+/Users/a1234/CLionProjects/push_swap/sources/parse_func.c
 push_swap.h
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
-/Users/a1234/CLionProjects/aa/sources/parse_func2.c
+/Users/a1234/CLionProjects/push_swap/sources/parse_func2.c
 push_swap.h
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 stdio.h
 -
 stdlib.h
 -
 ../libft/libft.h
-/Users/a1234/CLionProjects/aa/libft/libft.h
+/Users/a1234/CLionProjects/push_swap/libft/libft.h
 
-/Users/a1234/CLionProjects/aa/sources/quick_sort.c
+/Users/a1234/CLionProjects/push_swap/sources/quick_sort.c
 push_swap.h
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
-/Users/a1234/CLionProjects/aa/sources/simple_sort.c
+/Users/a1234/CLionProjects/push_swap/sources/simple_sort.c
 push_swap.h
-/Users/a1234/CLionProjects/aa/sources/push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 

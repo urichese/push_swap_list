@@ -1,3 +1,3 @@
-/Users/a1234/CLionProjects/aa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/a1234/CLionProjects/aa/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/a1234/CLionProjects/aa/cmake-build-debug/CMakeFiles/push_swap.dir
+/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir
