@@ -18,7 +18,7 @@ void	quick_sort_in_b(t_list	**p_a, t_list	**p_b, t_base_list	*base)
 	j = ft_lstsize(*p_b);
 	while (j-- > 0) // обработка самого б
 	{
-		if ((*p_b) && (*p_b)->order == base->next) 	//если то что
+		if ((*p_b) && (*p_b)->order == base->next) //если то что
 			// перекинули next то перекидываем вниз
 		{
 			pa(p_a, p_b);
@@ -37,6 +37,24 @@ void	quick_sort_in_b(t_list	**p_a, t_list	**p_b, t_base_list	*base)
 	}
 }
 
+int	quick_sort_in_a(t_list	**p_a, t_list	**p_b, t_base_list	*base)
+{
+	int	i;
+
+	i = (*p_a)->flag;
+	while (i == (*p_a)->flag && i != 0) // перекидывание кучи что были в b
+	{
+		if ((*p_a)->order == base->next)
+		{
+			ra(p_a);
+			base->next++;
+			continue ;
+		}
+		pb(p_a, p_b);
+	}
+	return (i);
+}
+
 void	quick_sort_in(t_list	**p_a, t_list	**p_b, t_base_list	*base)
 {
 	int	i;
@@ -44,8 +62,6 @@ void	quick_sort_in(t_list	**p_a, t_list	**p_b, t_base_list	*base)
 	i = 1;
 	while (i != 0) // цикл закидывания обратно тех массивов что уже были в б
 	{
-		//base->max = base->mid;
-		//base->mid = (base->max - base->next) / 2 + base->next;
 		while (ft_lstsize(*p_b) != 0) // обработка внутри б пока не пустой
 			// в б
 		{
@@ -54,17 +70,7 @@ void	quick_sort_in(t_list	**p_a, t_list	**p_b, t_base_list	*base)
 			base->flag++;
 			quick_sort_in_b(p_a, p_b, base);
 		}
-		i = (*p_a)->flag;
-		while (i == (*p_a)->flag && i != 0) // перекидывание кучи что были в b
-		{
-			if ((*p_a)->order == base->next)
-			{
-				ra(p_a);
-				base->next++;
-				continue ;
-			}
-			pb(p_a, p_b);
-		}
+		i = quick_sort_in_a(p_a, p_b, base);
 	}
 	while ((*p_a)->order == base->next) // если след элемент то вниз
 	{
