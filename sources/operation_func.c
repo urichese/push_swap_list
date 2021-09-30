@@ -28,6 +28,8 @@ void	ra(t_list **p)
 
 	a = *p;
 	x = a;
+	if (a == NULL || a->next == NULL)
+		return ;
 	*p = a->next;
 	ft_lstadd_back(&a, x);
 }
@@ -42,5 +44,7 @@ void	rra(t_list **a)
 	t_list	*x;
 
 	x = ft_lstlast(*a);
+	if (*a == NULL || x == *a)
+		return ;
 	ft_lstadd_front(a, x);
 }
