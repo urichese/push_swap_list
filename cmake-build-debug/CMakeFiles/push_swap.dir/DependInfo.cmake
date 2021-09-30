@@ -22,7 +22,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/a1234/CLionProjects/push_swap_list/sources/instruction_func.c" "/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instruction_func.c.o"
   "/Users/a1234/CLionProjects/push_swap_list/sources/main.c" "/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/main.c.o"
   "/Users/a1234/CLionProjects/push_swap_list/sources/operation_func.c" "/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/operation_func.c.o"
+  "/Users/a1234/CLionProjects/push_swap_list/sources/operation_func2.c" "/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/operation_func2.c.o"
   "/Users/a1234/CLionProjects/push_swap_list/sources/parse_func.c" "/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parse_func.c.o"
+  "/Users/a1234/CLionProjects/push_swap_list/sources/parse_func2.c" "/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parse_func2.c.o"
   "/Users/a1234/CLionProjects/push_swap_list/sources/quick_sort.c" "/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/quick_sort.c.o"
   "/Users/a1234/CLionProjects/push_swap_list/sources/simple_sort.c" "/Users/a1234/CLionProjects/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/simple_sort.c.o"
   )

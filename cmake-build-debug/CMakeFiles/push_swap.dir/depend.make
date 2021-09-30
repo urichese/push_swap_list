@@ -59,9 +59,17 @@ CMakeFiles/push_swap.dir/sources/operation_func.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/operation_func.c.o: ../sources/operation_func.c
 CMakeFiles/push_swap.dir/sources/operation_func.c.o: ../sources/push_swap.h
 
+CMakeFiles/push_swap.dir/sources/operation_func2.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/operation_func2.c.o: ../sources/operation_func2.c
+CMakeFiles/push_swap.dir/sources/operation_func2.c.o: ../sources/push_swap.h
+
 CMakeFiles/push_swap.dir/sources/parse_func.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/parse_func.c.o: ../sources/parse_func.c
 CMakeFiles/push_swap.dir/sources/parse_func.c.o: ../sources/push_swap.h
+
+CMakeFiles/push_swap.dir/sources/parse_func2.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/parse_func2.c.o: ../sources/parse_func2.c
+CMakeFiles/push_swap.dir/sources/parse_func2.c.o: ../sources/push_swap.h
 
 CMakeFiles/push_swap.dir/sources/quick_sort.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/quick_sort.c.o: ../sources/push_swap.h

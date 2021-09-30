@@ -628,6 +628,33 @@ sources/operation_func.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func.c.s
 .PHONY : sources/operation_func.c.s
 
+sources/operation_func2.o: sources/operation_func2.c.o
+
+.PHONY : sources/operation_func2.o
+
+# target to build an object file
+sources/operation_func2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func2.c.o
+.PHONY : sources/operation_func2.c.o
+
+sources/operation_func2.i: sources/operation_func2.c.i
+
+.PHONY : sources/operation_func2.i
+
+# target to preprocess a source file
+sources/operation_func2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func2.c.i
+.PHONY : sources/operation_func2.c.i
+
+sources/operation_func2.s: sources/operation_func2.c.s
+
+.PHONY : sources/operation_func2.s
+
+# target to generate assembly for a file
+sources/operation_func2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func2.c.s
+.PHONY : sources/operation_func2.c.s
+
 sources/parse_func.o: sources/parse_func.c.o
 
 .PHONY : sources/parse_func.o
@@ -654,6 +681,33 @@ sources/parse_func.s: sources/parse_func.c.s
 sources/parse_func.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func.c.s
 .PHONY : sources/parse_func.c.s
+
+sources/parse_func2.o: sources/parse_func2.c.o
+
+.PHONY : sources/parse_func2.o
+
+# target to build an object file
+sources/parse_func2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func2.c.o
+.PHONY : sources/parse_func2.c.o
+
+sources/parse_func2.i: sources/parse_func2.c.i
+
+.PHONY : sources/parse_func2.i
+
+# target to preprocess a source file
+sources/parse_func2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func2.c.i
+.PHONY : sources/parse_func2.c.i
+
+sources/parse_func2.s: sources/parse_func2.c.s
+
+.PHONY : sources/parse_func2.s
+
+# target to generate assembly for a file
+sources/parse_func2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func2.c.s
+.PHONY : sources/parse_func2.c.s
 
 sources/quick_sort.o: sources/quick_sort.c.o
 
@@ -772,9 +826,15 @@ help:
 	@echo "... sources/operation_func.o"
 	@echo "... sources/operation_func.i"
 	@echo "... sources/operation_func.s"
+	@echo "... sources/operation_func2.o"
+	@echo "... sources/operation_func2.i"
+	@echo "... sources/operation_func2.s"
 	@echo "... sources/parse_func.o"
 	@echo "... sources/parse_func.i"
 	@echo "... sources/parse_func.s"
+	@echo "... sources/parse_func2.o"
+	@echo "... sources/parse_func2.i"
+	@echo "... sources/parse_func2.s"
 	@echo "... sources/quick_sort.o"
 	@echo "... sources/quick_sort.i"
 	@echo "... sources/quick_sort.s"

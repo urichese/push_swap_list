@@ -132,7 +132,13 @@
 		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/operation_func.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/operation_func2.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/parse_func.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/parse_func2.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap_list/sources/push_swap.h">

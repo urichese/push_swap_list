@@ -59,9 +59,17 @@ CMakeFiles/push_swap.dir/sources/operation_func.c.o
  /Users/a1234/CLionProjects/push_swap_list/libft/libft.h
  /Users/a1234/CLionProjects/push_swap_list/sources/operation_func.c
  /Users/a1234/CLionProjects/push_swap_list/sources/push_swap.h
+CMakeFiles/push_swap.dir/sources/operation_func2.c.o
+ /Users/a1234/CLionProjects/push_swap_list/libft/libft.h
+ /Users/a1234/CLionProjects/push_swap_list/sources/operation_func2.c
+ /Users/a1234/CLionProjects/push_swap_list/sources/push_swap.h
 CMakeFiles/push_swap.dir/sources/parse_func.c.o
  /Users/a1234/CLionProjects/push_swap_list/libft/libft.h
  /Users/a1234/CLionProjects/push_swap_list/sources/parse_func.c
+ /Users/a1234/CLionProjects/push_swap_list/sources/push_swap.h
+CMakeFiles/push_swap.dir/sources/parse_func2.c.o
+ /Users/a1234/CLionProjects/push_swap_list/libft/libft.h
+ /Users/a1234/CLionProjects/push_swap_list/sources/parse_func2.c
  /Users/a1234/CLionProjects/push_swap_list/sources/push_swap.h
 CMakeFiles/push_swap.dir/sources/quick_sort.c.o
  /Users/a1234/CLionProjects/push_swap_list/libft/libft.h
