@@ -126,6 +126,21 @@
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_back.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_front.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/lstlast.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/lstnew.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/lstsize.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/main.c">
 			<Option target="push_swap"/>
 		</Unit>

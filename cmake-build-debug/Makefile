@@ -574,6 +574,141 @@ sources/instructions/instruction_func.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.s
 .PHONY : sources/instructions/instruction_func.c.s
 
+sources/instructions/lstadd_back.o: sources/instructions/lstadd_back.c.o
+
+.PHONY : sources/instructions/lstadd_back.o
+
+# target to build an object file
+sources/instructions/lstadd_back.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o
+.PHONY : sources/instructions/lstadd_back.c.o
+
+sources/instructions/lstadd_back.i: sources/instructions/lstadd_back.c.i
+
+.PHONY : sources/instructions/lstadd_back.i
+
+# target to preprocess a source file
+sources/instructions/lstadd_back.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.i
+.PHONY : sources/instructions/lstadd_back.c.i
+
+sources/instructions/lstadd_back.s: sources/instructions/lstadd_back.c.s
+
+.PHONY : sources/instructions/lstadd_back.s
+
+# target to generate assembly for a file
+sources/instructions/lstadd_back.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.s
+.PHONY : sources/instructions/lstadd_back.c.s
+
+sources/instructions/lstadd_front.o: sources/instructions/lstadd_front.c.o
+
+.PHONY : sources/instructions/lstadd_front.o
+
+# target to build an object file
+sources/instructions/lstadd_front.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o
+.PHONY : sources/instructions/lstadd_front.c.o
+
+sources/instructions/lstadd_front.i: sources/instructions/lstadd_front.c.i
+
+.PHONY : sources/instructions/lstadd_front.i
+
+# target to preprocess a source file
+sources/instructions/lstadd_front.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.i
+.PHONY : sources/instructions/lstadd_front.c.i
+
+sources/instructions/lstadd_front.s: sources/instructions/lstadd_front.c.s
+
+.PHONY : sources/instructions/lstadd_front.s
+
+# target to generate assembly for a file
+sources/instructions/lstadd_front.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.s
+.PHONY : sources/instructions/lstadd_front.c.s
+
+sources/instructions/lstlast.o: sources/instructions/lstlast.c.o
+
+.PHONY : sources/instructions/lstlast.o
+
+# target to build an object file
+sources/instructions/lstlast.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o
+.PHONY : sources/instructions/lstlast.c.o
+
+sources/instructions/lstlast.i: sources/instructions/lstlast.c.i
+
+.PHONY : sources/instructions/lstlast.i
+
+# target to preprocess a source file
+sources/instructions/lstlast.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.i
+.PHONY : sources/instructions/lstlast.c.i
+
+sources/instructions/lstlast.s: sources/instructions/lstlast.c.s
+
+.PHONY : sources/instructions/lstlast.s
+
+# target to generate assembly for a file
+sources/instructions/lstlast.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.s
+.PHONY : sources/instructions/lstlast.c.s
+
+sources/instructions/lstnew.o: sources/instructions/lstnew.c.o
+
+.PHONY : sources/instructions/lstnew.o
+
+# target to build an object file
+sources/instructions/lstnew.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o
+.PHONY : sources/instructions/lstnew.c.o
+
+sources/instructions/lstnew.i: sources/instructions/lstnew.c.i
+
+.PHONY : sources/instructions/lstnew.i
+
+# target to preprocess a source file
+sources/instructions/lstnew.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.i
+.PHONY : sources/instructions/lstnew.c.i
+
+sources/instructions/lstnew.s: sources/instructions/lstnew.c.s
+
+.PHONY : sources/instructions/lstnew.s
+
+# target to generate assembly for a file
+sources/instructions/lstnew.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.s
+.PHONY : sources/instructions/lstnew.c.s
+
+sources/instructions/lstsize.o: sources/instructions/lstsize.c.o
+
+.PHONY : sources/instructions/lstsize.o
+
+# target to build an object file
+sources/instructions/lstsize.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o
+.PHONY : sources/instructions/lstsize.c.o
+
+sources/instructions/lstsize.i: sources/instructions/lstsize.c.i
+
+.PHONY : sources/instructions/lstsize.i
+
+# target to preprocess a source file
+sources/instructions/lstsize.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.i
+.PHONY : sources/instructions/lstsize.c.i
+
+sources/instructions/lstsize.s: sources/instructions/lstsize.c.s
+
+.PHONY : sources/instructions/lstsize.s
+
+# target to generate assembly for a file
+sources/instructions/lstsize.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.s
+.PHONY : sources/instructions/lstsize.c.s
+
 sources/main.o: sources/main.c.o
 
 .PHONY : sources/main.o
@@ -820,6 +955,21 @@ help:
 	@echo "... sources/instructions/instruction_func.o"
 	@echo "... sources/instructions/instruction_func.i"
 	@echo "... sources/instructions/instruction_func.s"
+	@echo "... sources/instructions/lstadd_back.o"
+	@echo "... sources/instructions/lstadd_back.i"
+	@echo "... sources/instructions/lstadd_back.s"
+	@echo "... sources/instructions/lstadd_front.o"
+	@echo "... sources/instructions/lstadd_front.i"
+	@echo "... sources/instructions/lstadd_front.s"
+	@echo "... sources/instructions/lstlast.o"
+	@echo "... sources/instructions/lstlast.i"
+	@echo "... sources/instructions/lstlast.s"
+	@echo "... sources/instructions/lstnew.o"
+	@echo "... sources/instructions/lstnew.i"
+	@echo "... sources/instructions/lstnew.s"
+	@echo "... sources/instructions/lstsize.o"
+	@echo "... sources/instructions/lstsize.i"
+	@echo "... sources/instructions/lstsize.s"
 	@echo "... sources/main.o"
 	@echo "... sources/main.i"
 	@echo "... sources/main.s"

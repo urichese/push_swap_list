@@ -1,4 +1,4 @@
-#include "libft.h"
+#include "../push_swap.h"
 
 t_ins_list	*lstlast(t_ins_list *lst)
 {

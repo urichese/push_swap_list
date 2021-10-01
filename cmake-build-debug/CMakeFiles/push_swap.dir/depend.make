@@ -51,6 +51,26 @@ CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../libft/lib
 CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../sources/instructions/instruction_func.c
 CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../sources/push_swap.h
 
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o: ../sources/instructions/lstadd_back.c
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o: ../sources/push_swap.h
+
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o: ../sources/instructions/lstadd_front.c
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o: ../sources/push_swap.h
+
+CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o: ../sources/instructions/lstlast.c
+CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o: ../sources/push_swap.h
+
+CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o: ../sources/instructions/lstnew.c
+CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o: ../sources/push_swap.h
+
+CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o: ../sources/instructions/lstsize.c
+CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o: ../sources/push_swap.h
+
 CMakeFiles/push_swap.dir/sources/main.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/main.c.o: ../sources/main.c
 CMakeFiles/push_swap.dir/sources/main.c.o: ../sources/push_swap.h

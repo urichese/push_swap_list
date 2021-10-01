@@ -375,6 +375,71 @@ CMakeFiles/push_swap.dir/sources/quick_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/quick_sort.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/quick_sort.c -o CMakeFiles/push_swap.dir/sources/quick_sort.c.s
 
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o: ../sources/instructions/lstadd_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o -c /Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_back.c
+
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_back.c > CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.i
+
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_back.c -o CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.s
+
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o: ../sources/instructions/lstadd_front.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o -c /Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_front.c
+
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_front.c > CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.i
+
+CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_front.c -o CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.s
+
+CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o: ../sources/instructions/lstlast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o -c /Users/a1234/CLionProjects/push_swap/sources/instructions/lstlast.c
+
+CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/instructions/lstlast.c > CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.i
+
+CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instructions/lstlast.c -o CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.s
+
+CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o: ../sources/instructions/lstnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o -c /Users/a1234/CLionProjects/push_swap/sources/instructions/lstnew.c
+
+CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/instructions/lstnew.c > CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.i
+
+CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instructions/lstnew.c -o CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.s
+
+CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o: ../sources/instructions/lstsize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o -c /Users/a1234/CLionProjects/push_swap/sources/instructions/lstsize.c
+
+CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/instructions/lstsize.c > CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.i
+
+CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instructions/lstsize.c -o CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.s
+
 # Object files for target push_swap
 push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/sources/main.c.o" \
@@ -399,7 +464,12 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/ft_lstadd_front.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_lstlast.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_lstsize.c.o" \
-"CMakeFiles/push_swap.dir/sources/quick_sort.c.o"
+"CMakeFiles/push_swap.dir/sources/quick_sort.c.o" \
+"CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o" \
+"CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o" \
+"CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o" \
+"CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o" \
+"CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -427,9 +497,14 @@ push_swap: CMakeFiles/push_swap.dir/libft/ft_lstadd_front.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_lstlast.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_lstsize.c.o
 push_swap: CMakeFiles/push_swap.dir/sources/quick_sort.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

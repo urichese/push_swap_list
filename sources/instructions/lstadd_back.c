@@ -1,4 +1,4 @@
-#include "libft.h"
+#include "../push_swap.h"
 
 void	lstadd_back(t_ins_list **lst, t_ins_list *new)
 {

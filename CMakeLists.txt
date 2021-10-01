@@ -14,4 +14,9 @@ add_executable(push_swap sources/main.c
         libft/ft_putstr_fd.c libft/ft_putnbr_fd.c libft/ft_putchar_fd.c
         libft/ft_lstnew.c libft/ft_lstadd_back.c libft/ft_lstadd_front.c
         libft/ft_lstlast.c libft/ft_lstsize.c
-        sources/quick_sort.c)
+        sources/quick_sort.c
+        sources/instructions/lstadd_back.c
+        sources/instructions/lstadd_front.c
+        sources/instructions/lstlast.c
+        sources/instructions/lstnew.c
+        sources/instructions/lstsize.c)

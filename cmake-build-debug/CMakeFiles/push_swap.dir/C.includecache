@@ -12,40 +12,8 @@ unistd.h
 stdlib.h
 -
 
-/Users/a1234/CLionProjects/push_swap/sources/check_func.c
-push_swap.h
-/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
-
-/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c
+/Users/a1234/CLionProjects/push_swap/sources/instructions/lstnew.c
 ../push_swap.h
-/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
-
-/Users/a1234/CLionProjects/push_swap/sources/main.c
-push_swap.h
-/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
-
-/Users/a1234/CLionProjects/push_swap/sources/operation_func.c
-stdio.h
--
-stdlib.h
--
-push_swap.h
-/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
-
-/Users/a1234/CLionProjects/push_swap/sources/operation_func2.c
-stdio.h
--
-stdlib.h
--
-push_swap.h
-/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
-
-/Users/a1234/CLionProjects/push_swap/sources/parse_func.c
-push_swap.h
-/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
-
-/Users/a1234/CLionProjects/push_swap/sources/parse_func2.c
-push_swap.h
 /Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
 /Users/a1234/CLionProjects/push_swap/sources/push_swap.h
@@ -55,12 +23,4 @@ stdlib.h
 -
 ../libft/libft.h
 /Users/a1234/CLionProjects/push_swap/libft/libft.h
-
-/Users/a1234/CLionProjects/push_swap/sources/quick_sort.c
-push_swap.h
-/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
-
-/Users/a1234/CLionProjects/push_swap/sources/simple_sort.c
-push_swap.h
-/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
