@@ -8,7 +8,7 @@ add_executable(push_swap sources/main.c
         sources/parse_func.c sources/parse_func2.c
         sources/simple_sort.c
         sources/operation_func.c sources/operation_func2.c
-        sources/instruction_func.c sources/check_func.c
+        sources/instructions/instruction_func.c sources/check_func.c
         libft/ft_atoi.c libft/ft_calloc.c libft/ft_bzero.c
         libft/ft_isdigit.c libft/ft_isspace_bonus.c libft/ft_isdigit.c libft/ft_memset.c
         libft/ft_putstr_fd.c libft/ft_putnbr_fd.c libft/ft_putchar_fd.c

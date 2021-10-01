@@ -2,18 +2,20 @@
 #include <stdlib.h>
 #include "push_swap.h"
 
-void	rrb(t_list **b)
+void	rrb(t_ins_list *ins, t_list **b)
 {
-	rra(b);
+	rra(ins, b);
+	put_ins(ins, "rrb\0");
 }
 
-void	rrr(t_list **a, t_list **b)
+void	rrr(t_ins_list *ins, t_list **a, t_list **b)
 {
-	rra(a);
-	rra(b);
+	rra(ins, a);
+	rra(ins, b);
+	put_ins(ins, "rrr\0");
 }
 
-void	pa(t_list **a, t_list **b)
+void	pa(t_ins_list *ins, t_list **a, t_list **b)
 {
 	t_list	*b_element;
 
@@ -22,11 +24,13 @@ void	pa(t_list **a, t_list **b)
 	b_element = *b;
 	*b = b_element->next;
 	ft_lstadd_front(a, b_element);
+	put_ins(ins, "pa\0");
 }
 
-void	pb(t_list **a, t_list **b)
+void	pb(t_ins_list *ins, t_list **a, t_list **b)
 {
-	pa(b, a);
+	pa(ins, b, a);
+	put_ins(ins, "pb\0");
 }
 
 void	print_a(t_list *a)

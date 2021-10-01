@@ -14,7 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o"
   "CMakeFiles/push_swap.dir/sources/check_func.c.o"
-  "CMakeFiles/push_swap.dir/sources/instruction_func.c.o"
+  "CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o"
   "CMakeFiles/push_swap.dir/sources/main.c.o"
   "CMakeFiles/push_swap.dir/sources/operation_func.c.o"
   "CMakeFiles/push_swap.dir/sources/operation_func2.c.o"

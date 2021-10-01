@@ -47,9 +47,9 @@ CMakeFiles/push_swap.dir/sources/check_func.c.o
  /Users/a1234/CLionProjects/push_swap/libft/libft.h
  /Users/a1234/CLionProjects/push_swap/sources/check_func.c
  /Users/a1234/CLionProjects/push_swap/sources/push_swap.h
-CMakeFiles/push_swap.dir/sources/instruction_func.c.o
+CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o
  /Users/a1234/CLionProjects/push_swap/libft/libft.h
- /Users/a1234/CLionProjects/push_swap/sources/instruction_func.c
+ /Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c
  /Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 CMakeFiles/push_swap.dir/sources/main.c.o
  /Users/a1234/CLionProjects/push_swap/libft/libft.h

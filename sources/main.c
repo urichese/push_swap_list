@@ -5,6 +5,7 @@ int	main(int argc, char **argv)
 	int		*a;
 	t_list	*list_a;
 	t_list	*list_b;
+	t_ins_list *ins;
 
 	if (argc - 1 == 0)
 		return (0);
@@ -23,9 +24,9 @@ int	main(int argc, char **argv)
 	printf("in:\n");
 	print_list(list_a);
 	if (ft_lstsize(list_a) > 5)
-		quick_sort(&list_a, &list_b);
+		quick_sort(ins, &list_a, &list_b);
 	else
-		simple_sort(&list_a, &list_b);
+		simple_sort(ins, &list_a, &list_b);
 	printf("----------\n");
 	printf("sorted:\n");
 	print_list(list_a);

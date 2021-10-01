@@ -47,9 +47,9 @@ CMakeFiles/push_swap.dir/sources/check_func.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/check_func.c.o: ../sources/check_func.c
 CMakeFiles/push_swap.dir/sources/check_func.c.o: ../sources/push_swap.h
 
-CMakeFiles/push_swap.dir/sources/instruction_func.c.o: ../libft/libft.h
-CMakeFiles/push_swap.dir/sources/instruction_func.c.o: ../sources/instruction_func.c
-CMakeFiles/push_swap.dir/sources/instruction_func.c.o: ../sources/push_swap.h
+CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../sources/instructions/instruction_func.c
+CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../sources/push_swap.h
 
 CMakeFiles/push_swap.dir/sources/main.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/main.c.o: ../sources/main.c

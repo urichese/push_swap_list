@@ -123,7 +123,7 @@
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/check_func.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instruction_func.c">
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/main.c">

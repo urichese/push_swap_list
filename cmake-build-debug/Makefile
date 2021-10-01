@@ -547,32 +547,32 @@ sources/check_func.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/check_func.c.s
 .PHONY : sources/check_func.c.s
 
-sources/instruction_func.o: sources/instruction_func.c.o
+sources/instructions/instruction_func.o: sources/instructions/instruction_func.c.o
 
-.PHONY : sources/instruction_func.o
+.PHONY : sources/instructions/instruction_func.o
 
 # target to build an object file
-sources/instruction_func.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instruction_func.c.o
-.PHONY : sources/instruction_func.c.o
+sources/instructions/instruction_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o
+.PHONY : sources/instructions/instruction_func.c.o
 
-sources/instruction_func.i: sources/instruction_func.c.i
+sources/instructions/instruction_func.i: sources/instructions/instruction_func.c.i
 
-.PHONY : sources/instruction_func.i
+.PHONY : sources/instructions/instruction_func.i
 
 # target to preprocess a source file
-sources/instruction_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instruction_func.c.i
-.PHONY : sources/instruction_func.c.i
+sources/instructions/instruction_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.i
+.PHONY : sources/instructions/instruction_func.c.i
 
-sources/instruction_func.s: sources/instruction_func.c.s
+sources/instructions/instruction_func.s: sources/instructions/instruction_func.c.s
 
-.PHONY : sources/instruction_func.s
+.PHONY : sources/instructions/instruction_func.s
 
 # target to generate assembly for a file
-sources/instruction_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instruction_func.c.s
-.PHONY : sources/instruction_func.c.s
+sources/instructions/instruction_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.s
+.PHONY : sources/instructions/instruction_func.c.s
 
 sources/main.o: sources/main.c.o
 
@@ -817,9 +817,9 @@ help:
 	@echo "... sources/check_func.o"
 	@echo "... sources/check_func.i"
 	@echo "... sources/check_func.s"
-	@echo "... sources/instruction_func.o"
-	@echo "... sources/instruction_func.i"
-	@echo "... sources/instruction_func.s"
+	@echo "... sources/instructions/instruction_func.o"
+	@echo "... sources/instructions/instruction_func.i"
+	@echo "... sources/instructions/instruction_func.s"
 	@echo "... sources/main.o"
 	@echo "... sources/main.i"
 	@echo "... sources/main.s"

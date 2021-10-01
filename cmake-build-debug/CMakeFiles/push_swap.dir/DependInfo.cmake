@@ -19,7 +19,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/a1234/CLionProjects/push_swap/libft/ft_putnbr_fd.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o"
   "/Users/a1234/CLionProjects/push_swap/libft/ft_putstr_fd.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/check_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/check_func.c.o"
-  "/Users/a1234/CLionProjects/push_swap/sources/instruction_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instruction_func.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/main.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/main.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/operation_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/operation_func.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/operation_func2.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/operation_func2.c.o"

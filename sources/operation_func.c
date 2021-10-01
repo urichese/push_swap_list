@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "push_swap.h"
 
-void	sa(t_list **p)
+void	sa(t_ins_list *ins, t_list **p)
 {
 	t_list	*x;
 	t_list	*y;
@@ -14,14 +14,16 @@ void	sa(t_list **p)
 	x->next = y->next;
 	y->next = x;
 	*p = y;
+	put_ins(ins, "sa\0");
 }
 
-void	sb(t_list **a)
+void	sb(t_ins_list *ins, t_list **a)
 {
-	sa(a);
+	sa(ins, a);
+	put_ins(ins, "sb\0");
 }
 
-void	ra(t_list **p)
+void	ra(t_ins_list *ins, t_list **p)
 {
 	t_list	*x;
 	t_list	*a;
@@ -32,14 +34,16 @@ void	ra(t_list **p)
 		return ;
 	*p = a->next;
 	ft_lstadd_back(&a, x);
+	put_ins(ins, "ra\0");
 }
 
-void	rb(t_list **b)
+void	rb(t_ins_list *ins, t_list **b)
 {
-	ra(b);
+	ra(ins, b);
+	put_ins(ins, "rb\0");
 }
 
-void	rra(t_list **a)
+void	rra(t_ins_list *ins, t_list **a)
 {
 	t_list	*x;
 
@@ -47,4 +51,5 @@ void	rra(t_list **a)
 	if (*a == NULL || x == *a)
 		return ;
 	ft_lstadd_front(a, x);
+	put_ins(ins, "rra\0");
 }

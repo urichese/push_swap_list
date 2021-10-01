@@ -154,18 +154,18 @@ CMakeFiles/push_swap.dir/sources/operation_func2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/operation_func2.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/operation_func2.c -o CMakeFiles/push_swap.dir/sources/operation_func2.c.s
 
-CMakeFiles/push_swap.dir/sources/instruction_func.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/sources/instruction_func.c.o: ../sources/instruction_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/sources/instruction_func.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/instruction_func.c.o -c /Users/a1234/CLionProjects/push_swap/sources/instruction_func.c
+CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../sources/instructions/instruction_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o -c /Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c
 
-CMakeFiles/push_swap.dir/sources/instruction_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/instruction_func.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/instruction_func.c > CMakeFiles/push_swap.dir/sources/instruction_func.c.i
+CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c > CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.i
 
-CMakeFiles/push_swap.dir/sources/instruction_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instruction_func.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instruction_func.c -o CMakeFiles/push_swap.dir/sources/instruction_func.c.s
+CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c -o CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.s
 
 CMakeFiles/push_swap.dir/sources/check_func.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/check_func.c.o: ../sources/check_func.c
@@ -383,7 +383,7 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/sources/simple_sort.c.o" \
 "CMakeFiles/push_swap.dir/sources/operation_func.c.o" \
 "CMakeFiles/push_swap.dir/sources/operation_func2.c.o" \
-"CMakeFiles/push_swap.dir/sources/instruction_func.c.o" \
+"CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o" \
 "CMakeFiles/push_swap.dir/sources/check_func.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_calloc.c.o" \
@@ -410,7 +410,7 @@ push_swap: CMakeFiles/push_swap.dir/sources/parse_func2.c.o
 push_swap: CMakeFiles/push_swap.dir/sources/simple_sort.c.o
 push_swap: CMakeFiles/push_swap.dir/sources/operation_func.c.o
 push_swap: CMakeFiles/push_swap.dir/sources/operation_func2.c.o
-push_swap: CMakeFiles/push_swap.dir/sources/instruction_func.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o
 push_swap: CMakeFiles/push_swap.dir/sources/check_func.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_atoi.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_calloc.c.o
