@@ -13,6 +13,12 @@ typedef struct s_base_list
 	int	flag;
 }				t_base_list;
 
+typedef struct s_ins_list
+{
+	char				*name;
+	struct s_ins_list	*next;
+}				t_ins_list;
+
 void	sa(t_list **a);
 void	sb(t_list **b);
 void	ra(t_list **a);
@@ -24,8 +30,6 @@ void	pa(t_list **a, t_list **b);
 void	pb(t_list **a, t_list **b);
 int		*check(int argc, char **argv);
 int		ft_isnumber(const char *str);
-char	**put_ins(char **ins, char *name);
-void	print_ins(char **ins);
 int		*quick_sort_array(int *a, int low, int high);
 int		is_sorted(int *a, int len);
 int		get_order(int *a, int len, int c);
@@ -35,6 +39,13 @@ t_list	*get_list(int *a, int len);
 void	print_list(t_list	*a);
 void	simple_sort(t_list	**a, t_list	**b);
 void	quick_sort(t_list	**p_a, t_list	**p_b);
+int	lstsize(t_ins_list *lst);
+void	lstadd_back(t_ins_list **lst, t_ins_list *new);
+void	lstadd_front(t_ins_list **lst, t_ins_list *new);
+t_ins_list	*lstlast(t_ins_list *lst);
+t_ins_list	*lstnew(char *name);
+char	**put_ins(t_ins_list *ins, char *name);
+void	print_ins(t_ins_list *ins);
 //void	libft/ft_putstr_fd(char *s, int fd);
 
 #endif
