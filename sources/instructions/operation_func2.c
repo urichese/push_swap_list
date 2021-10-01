@@ -2,20 +2,20 @@
 #include <stdlib.h>
 #include "../push_swap.h"
 
-void	rrb(t_ins_list *ins, t_list **b)
+void	rrb(t_ins_list **ins, t_list **b)
 {
 	rra(ins, b);
 	put_ins(ins, "rrb\0");
 }
 
-void	rrr(t_ins_list *ins, t_list **a, t_list **b)
+void	rrr(t_ins_list **ins, t_list **a, t_list **b)
 {
 	rra(ins, a);
 	rra(ins, b);
 	put_ins(ins, "rrr\0");
 }
 
-void	pa(t_ins_list *ins, t_list **a, t_list **b)
+void	pa(t_ins_list **ins, t_list **a, t_list **b)
 {
 	t_list	*b_element;
 
@@ -27,7 +27,7 @@ void	pa(t_ins_list *ins, t_list **a, t_list **b)
 	put_ins(ins, "pa\0");
 }
 
-void	pb(t_ins_list *ins, t_list **a, t_list **b)
+void	pb(t_ins_list **ins, t_list **a, t_list **b)
 {
 	pa(ins, b, a);
 	put_ins(ins, "pb\0");

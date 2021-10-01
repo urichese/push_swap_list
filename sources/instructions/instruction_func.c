@@ -1,11 +1,11 @@
 #include "../push_swap.h"
 
-void	put_ins(t_ins_list *ins, char *name)
+void	put_ins(t_ins_list **ins, char *name)
 {
 	t_ins_list *new;
 
 	new = lstnew(name);
-	lstadd_back(&ins, new);
+	lstadd_back(ins, new);
 }
 
 void	print_ins(t_ins_list *ins)

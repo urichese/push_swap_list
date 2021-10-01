@@ -11,7 +11,7 @@ int	is_lstsorted(t_list	*a)
 	return (1);
 }
 
-void	quick_sort_in_b(t_ins_list *ins, t_list	**p_a, t_list	**p_b,
+void	quick_sort_in_b(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 						t_base_list	*base)
 {
 	int	j;
@@ -38,7 +38,7 @@ void	quick_sort_in_b(t_ins_list *ins, t_list	**p_a, t_list	**p_b,
 	}
 }
 
-int	quick_sort_in_a(t_ins_list *ins, t_list	**p_a, t_list	**p_b,
+int	quick_sort_in_a(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 					   t_base_list	*base)
 {
 	int	i;
@@ -57,7 +57,7 @@ int	quick_sort_in_a(t_ins_list *ins, t_list	**p_a, t_list	**p_b,
 	return (i);
 }
 
-void	quick_sort_in(t_ins_list *ins, t_list	**p_a, t_list	**p_b,
+void	quick_sort_in(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 					  t_base_list	*base)
 {
 	int	i;
@@ -82,7 +82,7 @@ void	quick_sort_in(t_ins_list *ins, t_list	**p_a, t_list	**p_b,
 	}
 }
 
-void	quick_sort_part(t_ins_list *ins, t_list	**p_a, t_list	**p_b,
+void	quick_sort_part(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 						t_base_list	*base)
 {
 	int			i;
@@ -110,7 +110,7 @@ void	quick_sort_part(t_ins_list *ins, t_list	**p_a, t_list	**p_b,
 	base->mid = (base->max - base->next) / 2 + base->next;
 }
 
-void	quick_sort(t_ins_list *ins, t_list	**p_a, t_list	**p_b)
+void	quick_sort(t_ins_list **ins, t_list	**p_a, t_list	**p_b)
 {
 	int			len;
 	t_base_list	*base;

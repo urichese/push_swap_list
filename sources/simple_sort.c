@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-void	sort_2(t_ins_list *ins, t_list	**p)
+void	sort_2(t_ins_list **ins, t_list	**p)
 {
 	t_list	*a;
 
@@ -9,7 +9,7 @@ void	sort_2(t_ins_list *ins, t_list	**p)
 		sa(ins, p);
 }
 
-void	sort_3(t_ins_list *ins, t_list	**p)
+void	sort_3(t_ins_list **ins, t_list	**p)
 {
 	t_list	*a;
 
@@ -39,7 +39,7 @@ void	sort_3(t_ins_list *ins, t_list	**p)
 	}
 }
 
-void	sort_4(t_ins_list *ins, t_list	**p, t_list	**p_b)
+void	sort_4(t_ins_list **ins, t_list	**p, t_list	**p_b)
 {
 	t_list	*a;
 	t_list	*b;
@@ -73,7 +73,7 @@ void	sort_4(t_ins_list *ins, t_list	**p, t_list	**p_b)
 		pa(ins, p, p_b);
 }
 
-void	sort_5(t_ins_list *ins, t_list	**p, t_list	**p_b)
+void	sort_5(t_ins_list **ins, t_list	**p, t_list	**p_b)
 {
 	t_list	*a;
 	t_list	*b;
@@ -116,7 +116,7 @@ void	sort_5(t_ins_list *ins, t_list	**p, t_list	**p_b)
 		pa(ins, p, p_b);
 }
 
-void	simple_sort(t_ins_list *ins, t_list	**p_a, t_list	**p_b)
+void	simple_sort(t_ins_list **ins, t_list	**p_a, t_list	**p_b)
 {
 	if (ft_lstsize(*p_a) == 2)
 	{
