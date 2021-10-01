@@ -89,31 +89,31 @@ CMakeFiles/push_swap.dir/sources/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/main.c -o CMakeFiles/push_swap.dir/sources/main.c.s
 
-CMakeFiles/push_swap.dir/sources/parse_func.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/sources/parse_func.c.o: ../sources/parse_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/sources/parse_func.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/parse_func.c.o -c /Users/a1234/CLionProjects/push_swap/sources/parse_func.c
+CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.o: ../sources/parsing/parse_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.o -c /Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func.c
 
-CMakeFiles/push_swap.dir/sources/parse_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/parse_func.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/parse_func.c > CMakeFiles/push_swap.dir/sources/parse_func.c.i
+CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func.c > CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.i
 
-CMakeFiles/push_swap.dir/sources/parse_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/parse_func.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/parse_func.c -o CMakeFiles/push_swap.dir/sources/parse_func.c.s
+CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func.c -o CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.s
 
-CMakeFiles/push_swap.dir/sources/parse_func2.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/sources/parse_func2.c.o: ../sources/parse_func2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/sources/parse_func2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/parse_func2.c.o -c /Users/a1234/CLionProjects/push_swap/sources/parse_func2.c
+CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o: ../sources/parsing/parse_func2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o -c /Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func2.c
 
-CMakeFiles/push_swap.dir/sources/parse_func2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/parse_func2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/parse_func2.c > CMakeFiles/push_swap.dir/sources/parse_func2.c.i
+CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func2.c > CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.i
 
-CMakeFiles/push_swap.dir/sources/parse_func2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/parse_func2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/parse_func2.c -o CMakeFiles/push_swap.dir/sources/parse_func2.c.s
+CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func2.c -o CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.s
 
 CMakeFiles/push_swap.dir/sources/simple_sort.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/simple_sort.c.o: ../sources/simple_sort.c
@@ -128,31 +128,31 @@ CMakeFiles/push_swap.dir/sources/simple_sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/simple_sort.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/simple_sort.c -o CMakeFiles/push_swap.dir/sources/simple_sort.c.s
 
-CMakeFiles/push_swap.dir/sources/operation_func.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/sources/operation_func.c.o: ../sources/operation_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/sources/operation_func.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/operation_func.c.o -c /Users/a1234/CLionProjects/push_swap/sources/operation_func.c
+CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.o: ../sources/instructions/operation_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.o -c /Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func.c
 
-CMakeFiles/push_swap.dir/sources/operation_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/operation_func.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/operation_func.c > CMakeFiles/push_swap.dir/sources/operation_func.c.i
+CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func.c > CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.i
 
-CMakeFiles/push_swap.dir/sources/operation_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/operation_func.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/operation_func.c -o CMakeFiles/push_swap.dir/sources/operation_func.c.s
+CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func.c -o CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.s
 
-CMakeFiles/push_swap.dir/sources/operation_func2.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/sources/operation_func2.c.o: ../sources/operation_func2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/sources/operation_func2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/operation_func2.c.o -c /Users/a1234/CLionProjects/push_swap/sources/operation_func2.c
+CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.o: ../sources/instructions/operation_func2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.o -c /Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func2.c
 
-CMakeFiles/push_swap.dir/sources/operation_func2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/operation_func2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/operation_func2.c > CMakeFiles/push_swap.dir/sources/operation_func2.c.i
+CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func2.c > CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.i
 
-CMakeFiles/push_swap.dir/sources/operation_func2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/operation_func2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/operation_func2.c -o CMakeFiles/push_swap.dir/sources/operation_func2.c.s
+CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func2.c -o CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.s
 
 CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../sources/instructions/instruction_func.c
@@ -167,18 +167,18 @@ CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c -o CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.s
 
-CMakeFiles/push_swap.dir/sources/check_func.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/sources/check_func.c.o: ../sources/check_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/sources/check_func.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/check_func.c.o -c /Users/a1234/CLionProjects/push_swap/sources/check_func.c
+CMakeFiles/push_swap.dir/sources/parsing/check_func.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/sources/parsing/check_func.c.o: ../sources/parsing/check_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/sources/parsing/check_func.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sources/parsing/check_func.c.o -c /Users/a1234/CLionProjects/push_swap/sources/parsing/check_func.c
 
-CMakeFiles/push_swap.dir/sources/check_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/check_func.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/check_func.c > CMakeFiles/push_swap.dir/sources/check_func.c.i
+CMakeFiles/push_swap.dir/sources/parsing/check_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sources/parsing/check_func.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/sources/parsing/check_func.c > CMakeFiles/push_swap.dir/sources/parsing/check_func.c.i
 
-CMakeFiles/push_swap.dir/sources/check_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/check_func.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/check_func.c -o CMakeFiles/push_swap.dir/sources/check_func.c.s
+CMakeFiles/push_swap.dir/sources/parsing/check_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sources/parsing/check_func.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/sources/parsing/check_func.c -o CMakeFiles/push_swap.dir/sources/parsing/check_func.c.s
 
 CMakeFiles/push_swap.dir/libft/ft_atoi.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
@@ -443,13 +443,13 @@ CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.s: cmake_force
 # Object files for target push_swap
 push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/sources/main.c.o" \
-"CMakeFiles/push_swap.dir/sources/parse_func.c.o" \
-"CMakeFiles/push_swap.dir/sources/parse_func2.c.o" \
+"CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.o" \
+"CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o" \
 "CMakeFiles/push_swap.dir/sources/simple_sort.c.o" \
-"CMakeFiles/push_swap.dir/sources/operation_func.c.o" \
-"CMakeFiles/push_swap.dir/sources/operation_func2.c.o" \
+"CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.o" \
+"CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.o" \
 "CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o" \
-"CMakeFiles/push_swap.dir/sources/check_func.c.o" \
+"CMakeFiles/push_swap.dir/sources/parsing/check_func.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_calloc.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_bzero.c.o" \
@@ -475,13 +475,13 @@ push_swap_OBJECTS = \
 push_swap_EXTERNAL_OBJECTS =
 
 push_swap: CMakeFiles/push_swap.dir/sources/main.c.o
-push_swap: CMakeFiles/push_swap.dir/sources/parse_func.c.o
-push_swap: CMakeFiles/push_swap.dir/sources/parse_func2.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o
 push_swap: CMakeFiles/push_swap.dir/sources/simple_sort.c.o
-push_swap: CMakeFiles/push_swap.dir/sources/operation_func.c.o
-push_swap: CMakeFiles/push_swap.dir/sources/operation_func2.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.o
 push_swap: CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o
-push_swap: CMakeFiles/push_swap.dir/sources/check_func.c.o
+push_swap: CMakeFiles/push_swap.dir/sources/parsing/check_func.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_atoi.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_calloc.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_bzero.c.o

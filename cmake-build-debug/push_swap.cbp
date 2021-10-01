@@ -120,9 +120,6 @@
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/libft/ft_putstr_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/check_func.c">
-			<Option target="push_swap"/>
-		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -141,19 +138,22 @@
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/lstsize.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func2.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/main.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/operation_func.c">
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/parsing/check_func.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/operation_func2.c">
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/parse_func.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/parse_func2.c">
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func2.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/push_swap.h">

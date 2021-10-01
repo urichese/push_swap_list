@@ -520,33 +520,6 @@ libft/ft_putstr_fd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.s
 .PHONY : libft/ft_putstr_fd.c.s
 
-sources/check_func.o: sources/check_func.c.o
-
-.PHONY : sources/check_func.o
-
-# target to build an object file
-sources/check_func.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/check_func.c.o
-.PHONY : sources/check_func.c.o
-
-sources/check_func.i: sources/check_func.c.i
-
-.PHONY : sources/check_func.i
-
-# target to preprocess a source file
-sources/check_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/check_func.c.i
-.PHONY : sources/check_func.c.i
-
-sources/check_func.s: sources/check_func.c.s
-
-.PHONY : sources/check_func.s
-
-# target to generate assembly for a file
-sources/check_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/check_func.c.s
-.PHONY : sources/check_func.c.s
-
 sources/instructions/instruction_func.o: sources/instructions/instruction_func.c.o
 
 .PHONY : sources/instructions/instruction_func.o
@@ -709,6 +682,60 @@ sources/instructions/lstsize.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.s
 .PHONY : sources/instructions/lstsize.c.s
 
+sources/instructions/operation_func.o: sources/instructions/operation_func.c.o
+
+.PHONY : sources/instructions/operation_func.o
+
+# target to build an object file
+sources/instructions/operation_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.o
+.PHONY : sources/instructions/operation_func.c.o
+
+sources/instructions/operation_func.i: sources/instructions/operation_func.c.i
+
+.PHONY : sources/instructions/operation_func.i
+
+# target to preprocess a source file
+sources/instructions/operation_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.i
+.PHONY : sources/instructions/operation_func.c.i
+
+sources/instructions/operation_func.s: sources/instructions/operation_func.c.s
+
+.PHONY : sources/instructions/operation_func.s
+
+# target to generate assembly for a file
+sources/instructions/operation_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.s
+.PHONY : sources/instructions/operation_func.c.s
+
+sources/instructions/operation_func2.o: sources/instructions/operation_func2.c.o
+
+.PHONY : sources/instructions/operation_func2.o
+
+# target to build an object file
+sources/instructions/operation_func2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.o
+.PHONY : sources/instructions/operation_func2.c.o
+
+sources/instructions/operation_func2.i: sources/instructions/operation_func2.c.i
+
+.PHONY : sources/instructions/operation_func2.i
+
+# target to preprocess a source file
+sources/instructions/operation_func2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.i
+.PHONY : sources/instructions/operation_func2.c.i
+
+sources/instructions/operation_func2.s: sources/instructions/operation_func2.c.s
+
+.PHONY : sources/instructions/operation_func2.s
+
+# target to generate assembly for a file
+sources/instructions/operation_func2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.s
+.PHONY : sources/instructions/operation_func2.c.s
+
 sources/main.o: sources/main.c.o
 
 .PHONY : sources/main.o
@@ -736,113 +763,86 @@ sources/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/main.c.s
 .PHONY : sources/main.c.s
 
-sources/operation_func.o: sources/operation_func.c.o
+sources/parsing/check_func.o: sources/parsing/check_func.c.o
 
-.PHONY : sources/operation_func.o
-
-# target to build an object file
-sources/operation_func.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func.c.o
-.PHONY : sources/operation_func.c.o
-
-sources/operation_func.i: sources/operation_func.c.i
-
-.PHONY : sources/operation_func.i
-
-# target to preprocess a source file
-sources/operation_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func.c.i
-.PHONY : sources/operation_func.c.i
-
-sources/operation_func.s: sources/operation_func.c.s
-
-.PHONY : sources/operation_func.s
-
-# target to generate assembly for a file
-sources/operation_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func.c.s
-.PHONY : sources/operation_func.c.s
-
-sources/operation_func2.o: sources/operation_func2.c.o
-
-.PHONY : sources/operation_func2.o
+.PHONY : sources/parsing/check_func.o
 
 # target to build an object file
-sources/operation_func2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func2.c.o
-.PHONY : sources/operation_func2.c.o
+sources/parsing/check_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parsing/check_func.c.o
+.PHONY : sources/parsing/check_func.c.o
 
-sources/operation_func2.i: sources/operation_func2.c.i
+sources/parsing/check_func.i: sources/parsing/check_func.c.i
 
-.PHONY : sources/operation_func2.i
+.PHONY : sources/parsing/check_func.i
 
 # target to preprocess a source file
-sources/operation_func2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func2.c.i
-.PHONY : sources/operation_func2.c.i
+sources/parsing/check_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parsing/check_func.c.i
+.PHONY : sources/parsing/check_func.c.i
 
-sources/operation_func2.s: sources/operation_func2.c.s
+sources/parsing/check_func.s: sources/parsing/check_func.c.s
 
-.PHONY : sources/operation_func2.s
+.PHONY : sources/parsing/check_func.s
 
 # target to generate assembly for a file
-sources/operation_func2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/operation_func2.c.s
-.PHONY : sources/operation_func2.c.s
+sources/parsing/check_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parsing/check_func.c.s
+.PHONY : sources/parsing/check_func.c.s
 
-sources/parse_func.o: sources/parse_func.c.o
+sources/parsing/parse_func.o: sources/parsing/parse_func.c.o
 
-.PHONY : sources/parse_func.o
+.PHONY : sources/parsing/parse_func.o
 
 # target to build an object file
-sources/parse_func.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func.c.o
-.PHONY : sources/parse_func.c.o
+sources/parsing/parse_func.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.o
+.PHONY : sources/parsing/parse_func.c.o
 
-sources/parse_func.i: sources/parse_func.c.i
+sources/parsing/parse_func.i: sources/parsing/parse_func.c.i
 
-.PHONY : sources/parse_func.i
+.PHONY : sources/parsing/parse_func.i
 
 # target to preprocess a source file
-sources/parse_func.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func.c.i
-.PHONY : sources/parse_func.c.i
+sources/parsing/parse_func.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.i
+.PHONY : sources/parsing/parse_func.c.i
 
-sources/parse_func.s: sources/parse_func.c.s
+sources/parsing/parse_func.s: sources/parsing/parse_func.c.s
 
-.PHONY : sources/parse_func.s
+.PHONY : sources/parsing/parse_func.s
 
 # target to generate assembly for a file
-sources/parse_func.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func.c.s
-.PHONY : sources/parse_func.c.s
+sources/parsing/parse_func.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.s
+.PHONY : sources/parsing/parse_func.c.s
 
-sources/parse_func2.o: sources/parse_func2.c.o
+sources/parsing/parse_func2.o: sources/parsing/parse_func2.c.o
 
-.PHONY : sources/parse_func2.o
+.PHONY : sources/parsing/parse_func2.o
 
 # target to build an object file
-sources/parse_func2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func2.c.o
-.PHONY : sources/parse_func2.c.o
+sources/parsing/parse_func2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o
+.PHONY : sources/parsing/parse_func2.c.o
 
-sources/parse_func2.i: sources/parse_func2.c.i
+sources/parsing/parse_func2.i: sources/parsing/parse_func2.c.i
 
-.PHONY : sources/parse_func2.i
+.PHONY : sources/parsing/parse_func2.i
 
 # target to preprocess a source file
-sources/parse_func2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func2.c.i
-.PHONY : sources/parse_func2.c.i
+sources/parsing/parse_func2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.i
+.PHONY : sources/parsing/parse_func2.c.i
 
-sources/parse_func2.s: sources/parse_func2.c.s
+sources/parsing/parse_func2.s: sources/parsing/parse_func2.c.s
 
-.PHONY : sources/parse_func2.s
+.PHONY : sources/parsing/parse_func2.s
 
 # target to generate assembly for a file
-sources/parse_func2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parse_func2.c.s
-.PHONY : sources/parse_func2.c.s
+sources/parsing/parse_func2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.s
+.PHONY : sources/parsing/parse_func2.c.s
 
 sources/quick_sort.o: sources/quick_sort.c.o
 
@@ -949,9 +949,6 @@ help:
 	@echo "... libft/ft_putstr_fd.o"
 	@echo "... libft/ft_putstr_fd.i"
 	@echo "... libft/ft_putstr_fd.s"
-	@echo "... sources/check_func.o"
-	@echo "... sources/check_func.i"
-	@echo "... sources/check_func.s"
 	@echo "... sources/instructions/instruction_func.o"
 	@echo "... sources/instructions/instruction_func.i"
 	@echo "... sources/instructions/instruction_func.s"
@@ -970,21 +967,24 @@ help:
 	@echo "... sources/instructions/lstsize.o"
 	@echo "... sources/instructions/lstsize.i"
 	@echo "... sources/instructions/lstsize.s"
+	@echo "... sources/instructions/operation_func.o"
+	@echo "... sources/instructions/operation_func.i"
+	@echo "... sources/instructions/operation_func.s"
+	@echo "... sources/instructions/operation_func2.o"
+	@echo "... sources/instructions/operation_func2.i"
+	@echo "... sources/instructions/operation_func2.s"
 	@echo "... sources/main.o"
 	@echo "... sources/main.i"
 	@echo "... sources/main.s"
-	@echo "... sources/operation_func.o"
-	@echo "... sources/operation_func.i"
-	@echo "... sources/operation_func.s"
-	@echo "... sources/operation_func2.o"
-	@echo "... sources/operation_func2.i"
-	@echo "... sources/operation_func2.s"
-	@echo "... sources/parse_func.o"
-	@echo "... sources/parse_func.i"
-	@echo "... sources/parse_func.s"
-	@echo "... sources/parse_func2.o"
-	@echo "... sources/parse_func2.i"
-	@echo "... sources/parse_func2.s"
+	@echo "... sources/parsing/check_func.o"
+	@echo "... sources/parsing/check_func.i"
+	@echo "... sources/parsing/check_func.s"
+	@echo "... sources/parsing/parse_func.o"
+	@echo "... sources/parsing/parse_func.i"
+	@echo "... sources/parsing/parse_func.s"
+	@echo "... sources/parsing/parse_func2.o"
+	@echo "... sources/parsing/parse_func2.i"
+	@echo "... sources/parsing/parse_func2.s"
 	@echo "... sources/quick_sort.o"
 	@echo "... sources/quick_sort.i"
 	@echo "... sources/quick_sort.s"

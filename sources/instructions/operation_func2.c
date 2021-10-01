@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "push_swap.h"
+#include "../push_swap.h"
 
 void	rrb(t_ins_list *ins, t_list **b)
 {
