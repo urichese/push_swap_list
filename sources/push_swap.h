@@ -28,6 +28,7 @@ void	rrb(t_ins_list **ins, t_list **b);
 void	rrr(t_ins_list **ins, t_list **a, t_list **b);
 void	pa(t_ins_list **ins, t_list **a, t_list **b);
 void	pb(t_ins_list **ins, t_list **a, t_list **b);
+int	is_lstsorted(t_list	*a);
 int		*check(int argc, char **argv);
 int		ft_isnumber(const char *str);
 int		*quick_sort_array(int *a, int low, int high);

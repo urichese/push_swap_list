@@ -19,7 +19,7 @@ void	print_ins(t_ins_list *ins)
 	tmp = ins;
 	while (tmp)
 	{
-		ft_putstr_fd(ins->name, 1);
+		ft_putstr_fd(tmp->name, 1);
 		ft_putstr_fd("\n", 1);
 		tmp = tmp->next;
 	}
