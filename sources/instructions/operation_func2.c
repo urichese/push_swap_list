@@ -5,6 +5,7 @@
 void	rrb(t_ins_list **ins, t_list **b)
 {
 	rra(ins, b);
+	del_first_ins(ins);
 	put_ins(ins, "rrb\0");
 }
 
@@ -12,6 +13,8 @@ void	rrr(t_ins_list **ins, t_list **a, t_list **b)
 {
 	rra(ins, a);
 	rra(ins, b);
+	del_first_ins(ins);
+	del_first_ins(ins);
 	put_ins(ins, "rrr\0");
 }
 
@@ -27,9 +30,22 @@ void	pa(t_ins_list **ins, t_list **a, t_list **b)
 	put_ins(ins, "pa\0");
 }
 
+void	pb_vb(t_ins_list **ins, t_list **a, t_list **b)
+{
+	t_list	*b_element;
+
+	if (ft_lstsize(*b) == 0)
+		return ;
+	b_element = *b;
+	*b = b_element->next;
+	ft_lstadd_front(a, b_element);
+	put_ins(ins, "pb\0");
+}
+
 void	pb(t_ins_list **ins, t_list **a, t_list **b)
 {
 	pa(ins, b, a);
+	del_first_ins(ins);
 	put_ins(ins, "pb\0");
 }
 

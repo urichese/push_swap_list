@@ -28,6 +28,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o"
   "CMakeFiles/push_swap.dir/sources/quick_sort.c.o"
   "CMakeFiles/push_swap.dir/sources/simple_sort.c.o"
+  "CMakeFiles/push_swap.dir/sources/simple_sort_b.c.o"
   "push_swap"
   "push_swap.pdb"
 )

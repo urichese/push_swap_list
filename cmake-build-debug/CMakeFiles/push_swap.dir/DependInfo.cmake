@@ -33,6 +33,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func2.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/quick_sort.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/quick_sort.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/simple_sort.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/simple_sort.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/simple_sort_b.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/simple_sort_b.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

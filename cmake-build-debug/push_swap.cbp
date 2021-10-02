@@ -168,6 +168,9 @@
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/simple_sort.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/simple_sort_b.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

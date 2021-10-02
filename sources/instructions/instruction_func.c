@@ -1,5 +1,14 @@
 #include "../push_swap.h"
 
+void	del_first_ins(t_ins_list **ins)
+{
+	t_ins_list *tmp;
+
+	tmp = *ins;
+	(*ins)= (*ins)->next;
+	lstdel(tmp);
+}
+
 void	put_ins(t_ins_list **ins, char *name)
 {
 	t_ins_list *new;
@@ -11,6 +20,7 @@ t_ins_list	**zip_ins(t_ins_list **ins)
 {
 	int	f;
 	t_ins_list *tmp;
+	t_ins_list *del;
 
 	f = 1;
 	tmp = *ins;
@@ -23,24 +33,31 @@ t_ins_list	**zip_ins(t_ins_list **ins)
 					(tmp->name == "sb\0" && tmp->next->name == "sa\0"))
 			{
 				tmp->name == "ss\0";
+				del = tmp->next;
 				tmp->next = tmp->next->next;
-				lstdel(tmp->next);
+				lstdel(del);
 				f = 1;
 			}
+			if (tmp == NULL || tmp->next == NULL)
+				break ;
 			if (tmp->name == "ra\0" && tmp->next->name == "rb\0" ||
 				tmp->name == "rb\0" && tmp->next->name == "ra\0")
 			{
 				tmp->name == "rr\0";
+				del = tmp->next;
 				tmp->next = tmp->next->next;
-				lstdel(tmp->next);
+				lstdel(del);
 				f = 1;
 			}
+			if (tmp == NULL || tmp->next == NULL)
+				break ;
 			if (tmp->name == "rra\0" && tmp->next->name == "rrb\0" ||
 				tmp->name == "rrb\0" && tmp->next->name == "rra\0")
 			{
 				tmp->name == "rrr\0";
+				del = tmp->next;
 				tmp->next = tmp->next->next;
-				lstdel(tmp->next);
+				lstdel(del);
 				f = 1;
 			}
 			tmp = tmp->next;

@@ -28,6 +28,8 @@ void	rrb(t_ins_list **ins, t_list **b);
 void	rrr(t_ins_list **ins, t_list **a, t_list **b);
 void	pa(t_ins_list **ins, t_list **a, t_list **b);
 void	pb(t_ins_list **ins, t_list **a, t_list **b);
+void	pb_vb(t_ins_list **ins, t_list **a, t_list **b);
+
 int	is_lstsorted(t_list	*a);
 int		*check(int argc, char **argv);
 int		ft_isnumber(const char *str);
@@ -40,6 +42,7 @@ t_list	*get_list(int *a, int len);
 void	print_list(t_list	*a);
 
 void	simple_sort(t_ins_list **ins, t_list	**a, t_list	**b);
+void	simple_sort_b(t_ins_list **ins, t_list	**p_a, t_list	**p_b);
 void	quick_sort(t_ins_list **ins, t_list	**p_a, t_list	**p_b);
 
 int	lstsize(t_ins_list *lst);
@@ -51,6 +54,7 @@ void	lstdel(t_ins_list *lst);
 
 void	put_ins(t_ins_list **ins, char *name);
 void	print_ins(t_ins_list **ins);
+void	del_first_ins(t_ins_list **ins);
 //void	libft/ft_putstr_fd(char *s, int fd);
 
 #endif

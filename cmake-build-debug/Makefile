@@ -925,6 +925,33 @@ sources/simple_sort.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/simple_sort.c.s
 .PHONY : sources/simple_sort.c.s
 
+sources/simple_sort_b.o: sources/simple_sort_b.c.o
+
+.PHONY : sources/simple_sort_b.o
+
+# target to build an object file
+sources/simple_sort_b.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/simple_sort_b.c.o
+.PHONY : sources/simple_sort_b.c.o
+
+sources/simple_sort_b.i: sources/simple_sort_b.c.i
+
+.PHONY : sources/simple_sort_b.i
+
+# target to preprocess a source file
+sources/simple_sort_b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/simple_sort_b.c.i
+.PHONY : sources/simple_sort_b.c.i
+
+sources/simple_sort_b.s: sources/simple_sort_b.c.s
+
+.PHONY : sources/simple_sort_b.s
+
+# target to generate assembly for a file
+sources/simple_sort_b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/simple_sort_b.c.s
+.PHONY : sources/simple_sort_b.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1021,6 +1048,9 @@ help:
 	@echo "... sources/simple_sort.o"
 	@echo "... sources/simple_sort.i"
 	@echo "... sources/simple_sort.s"
+	@echo "... sources/simple_sort_b.o"
+	@echo "... sources/simple_sort_b.i"
+	@echo "... sources/simple_sort_b.s"
 .PHONY : help
 
 

@@ -103,3 +103,7 @@ CMakeFiles/push_swap.dir/sources/simple_sort.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/simple_sort.c.o: ../sources/push_swap.h
 CMakeFiles/push_swap.dir/sources/simple_sort.c.o: ../sources/simple_sort.c
 
+CMakeFiles/push_swap.dir/sources/simple_sort_b.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/simple_sort_b.c.o: ../sources/push_swap.h
+CMakeFiles/push_swap.dir/sources/simple_sort_b.c.o: ../sources/simple_sort_b.c
+
