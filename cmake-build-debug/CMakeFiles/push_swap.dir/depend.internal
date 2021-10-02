@@ -55,6 +55,10 @@ CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o
  /Users/a1234/CLionProjects/push_swap/libft/libft.h
  /Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_front.c
  /Users/a1234/CLionProjects/push_swap/sources/push_swap.h
+CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.o
+ /Users/a1234/CLionProjects/push_swap/libft/libft.h
+ /Users/a1234/CLionProjects/push_swap/sources/instructions/lstdel.c
+ /Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o
  /Users/a1234/CLionProjects/push_swap/libft/libft.h
  /Users/a1234/CLionProjects/push_swap/sources/instructions/lstlast.c

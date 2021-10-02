@@ -47,8 +47,10 @@ void	lstadd_back(t_ins_list **lst, t_ins_list *new);
 void	lstadd_front(t_ins_list **lst, t_ins_list *new);
 t_ins_list	*lstlast(t_ins_list *lst);
 t_ins_list	*lstnew(char *name);
+void	lstdel(t_ins_list *lst);
+
 void	put_ins(t_ins_list **ins, char *name);
-void	print_ins(t_ins_list *ins);
+void	print_ins(t_ins_list **ins);
 //void	libft/ft_putstr_fd(char *s, int fd);
 
 #endif

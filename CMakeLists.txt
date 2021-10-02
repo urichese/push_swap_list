@@ -22,4 +22,4 @@ add_executable(push_swap sources/main.c
         sources/instructions/lstadd_front.c
         sources/instructions/lstlast.c
         sources/instructions/lstnew.c
-        sources/instructions/lstsize.c)
+        sources/instructions/lstsize.c sources/instructions/lstdel.c)

@@ -55,6 +55,10 @@ CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o: ../sources/instructions/lstadd_front.c
 CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o: ../sources/push_swap.h
 
+CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.o: ../sources/instructions/lstdel.c
+CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.o: ../sources/push_swap.h
+
 CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o: ../sources/instructions/lstlast.c
 CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o: ../sources/push_swap.h

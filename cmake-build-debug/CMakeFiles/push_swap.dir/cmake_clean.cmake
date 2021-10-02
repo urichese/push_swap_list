@@ -16,6 +16,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o"
   "CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o"
   "CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o"
+  "CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.o"
   "CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o"
   "CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o"
   "CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o"

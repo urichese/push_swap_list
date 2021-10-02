@@ -129,6 +129,9 @@
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_front.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/lstdel.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/lstlast.c">
 			<Option target="push_swap"/>
 		</Unit>

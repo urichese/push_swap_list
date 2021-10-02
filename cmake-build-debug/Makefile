@@ -601,6 +601,33 @@ sources/instructions/lstadd_front.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.s
 .PHONY : sources/instructions/lstadd_front.c.s
 
+sources/instructions/lstdel.o: sources/instructions/lstdel.c.o
+
+.PHONY : sources/instructions/lstdel.o
+
+# target to build an object file
+sources/instructions/lstdel.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.o
+.PHONY : sources/instructions/lstdel.c.o
+
+sources/instructions/lstdel.i: sources/instructions/lstdel.c.i
+
+.PHONY : sources/instructions/lstdel.i
+
+# target to preprocess a source file
+sources/instructions/lstdel.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.i
+.PHONY : sources/instructions/lstdel.c.i
+
+sources/instructions/lstdel.s: sources/instructions/lstdel.c.s
+
+.PHONY : sources/instructions/lstdel.s
+
+# target to generate assembly for a file
+sources/instructions/lstdel.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.s
+.PHONY : sources/instructions/lstdel.c.s
+
 sources/instructions/lstlast.o: sources/instructions/lstlast.c.o
 
 .PHONY : sources/instructions/lstlast.o
@@ -958,6 +985,9 @@ help:
 	@echo "... sources/instructions/lstadd_front.o"
 	@echo "... sources/instructions/lstadd_front.i"
 	@echo "... sources/instructions/lstadd_front.s"
+	@echo "... sources/instructions/lstdel.o"
+	@echo "... sources/instructions/lstdel.i"
+	@echo "... sources/instructions/lstdel.s"
 	@echo "... sources/instructions/lstlast.o"
 	@echo "... sources/instructions/lstlast.i"
 	@echo "... sources/instructions/lstlast.s"

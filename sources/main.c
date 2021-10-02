@@ -33,6 +33,6 @@ int	main(int argc, char **argv)
 	//printf("----------\n");
 	//printf("b:\n");
 	//print_list(list_b);
-	print_ins(ins);
+	print_ins(&ins);
 	return (0);
 }

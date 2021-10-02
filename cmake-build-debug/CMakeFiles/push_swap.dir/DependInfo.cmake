@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_back.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_front.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstdel.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstlast.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstnew.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstsize.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o"
