@@ -4,12 +4,10 @@ N_TEMP = temp.a
 
 NAME = push_swap
 
-SRCS =  sources/main.c \
-        sources/quick_sort.c \
-        sources/simple_sort.c \
-        sources/instructions/instruction_func.c \
+SRCS =  sources/instructions/instruction_func.c \
         sources/instructions/lstadd_back.c \
         sources/instructions/lstadd_front.c \
+        sources/instructions/lstdel.c \
         sources/instructions/lstlast.c \
         sources/instructions/lstnew.c \
         sources/instructions/lstsize.c \
@@ -18,14 +16,15 @@ SRCS =  sources/main.c \
         sources/parsing/check_func.c \
         sources/parsing/parse_func.c \
         sources/parsing/parse_func2.c \
+        sources/main.c \
+        sources/quick_sort.c \
+        sources/simple_sort.c \
+        sources/simple_sort_b.c \
 
-SURPL_O = sources/main.o \
-		  sources/operation_func.o \
-		  sources/quick_sort.o \
-		  sources/simple_sort.o \
-		  sources/instructions/instruction_func.o \
+SURPL_O = sources/instructions/instruction_func.o \
 		  sources/instructions/lstadd_back.o \
 		  sources/instructions/lstadd_front.o \
+		  sources/instructions/lstdel.o \
 		  sources/instructions/lstlast.o \
 		  sources/instructions/lstnew.o \
 		  sources/instructions/lstsize.o \
@@ -34,6 +33,13 @@ SURPL_O = sources/main.o \
 		  sources/parsing/check_func.o \
 		  sources/parsing/parse_func.o \
 		  sources/parsing/parse_func2.o \
+		  sources/main.o \
+          sources/quick_sort.o \
+          sources/simple_sort.o \
+          sources/simple_sort_b.o \
+
+sources/%.o: sources/%.c
+	$(CC) $(FLAGS) $(INCLUDES) $< -o $@
 
 CC = gcc
 
@@ -45,9 +51,7 @@ OBJS = $(SRCS:.c=.o)
 
 $(NAME): $(OBJS)
 	$(MAKE) libft.a -C ./libft
-	cp libft/libft.a $(NAME)
-	$(CC) $(FLAGS) $(INCLUDES) $(SRCS)
-	ar -rcs $(NAME) $(OBJS)
+	$(CC) -Wall -Werror -Wextra $(OBJS) libft/libft.a -o $@
 
 all : $(NAME)
 
