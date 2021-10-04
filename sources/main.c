@@ -31,8 +31,10 @@ int	main(int argc, char **argv)
 	{
 		return (0);
 	}
-	ins = malloc(sizeof(t_ins_list)); //todo refactor
-
+	//ins = malloc(sizeof(t_ins_list)); //todo refactor
+	ins = NULL;
+	list_b = NULL;
+	list_a = NULL;
 	list_a = get_list(a, argc - 1);
 	if (ft_lstsize(list_a) > 5)
 		quick_sort(&ins, &list_a, &list_b);
