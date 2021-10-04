@@ -13,8 +13,8 @@ CMakeFiles/push_swap.dir/libft/ft_calloc.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
 CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o: ../libft/libft.h
 
-CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o: ../libft/ft_isspace_bonus.c
-CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/libft/ft_isspace.c.o: ../libft/ft_isspace.c
+CMakeFiles/push_swap.dir/libft/ft_isspace.c.o: ../libft/libft.h
 
 CMakeFiles/push_swap.dir/libft/ft_lstadd_back.c.o: ../libft/ft_lstadd_back.c
 CMakeFiles/push_swap.dir/libft/ft_lstadd_back.c.o: ../libft/libft.h

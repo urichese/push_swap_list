@@ -250,32 +250,32 @@ libft/ft_isdigit.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isdigit.c.s
 .PHONY : libft/ft_isdigit.c.s
 
-libft/ft_isspace_bonus.o: libft/ft_isspace_bonus.c.o
+libft/ft_isspace.o: libft/ft_isspace.c.o
 
-.PHONY : libft/ft_isspace_bonus.o
+.PHONY : libft/ft_isspace.o
 
 # target to build an object file
-libft/ft_isspace_bonus.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o
-.PHONY : libft/ft_isspace_bonus.c.o
+libft/ft_isspace.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isspace.c.o
+.PHONY : libft/ft_isspace.c.o
 
-libft/ft_isspace_bonus.i: libft/ft_isspace_bonus.c.i
+libft/ft_isspace.i: libft/ft_isspace.c.i
 
-.PHONY : libft/ft_isspace_bonus.i
+.PHONY : libft/ft_isspace.i
 
 # target to preprocess a source file
-libft/ft_isspace_bonus.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.i
-.PHONY : libft/ft_isspace_bonus.c.i
+libft/ft_isspace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isspace.c.i
+.PHONY : libft/ft_isspace.c.i
 
-libft/ft_isspace_bonus.s: libft/ft_isspace_bonus.c.s
+libft/ft_isspace.s: libft/ft_isspace.c.s
 
-.PHONY : libft/ft_isspace_bonus.s
+.PHONY : libft/ft_isspace.s
 
 # target to generate assembly for a file
-libft/ft_isspace_bonus.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.s
-.PHONY : libft/ft_isspace_bonus.c.s
+libft/ft_isspace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_isspace.c.s
+.PHONY : libft/ft_isspace.c.s
 
 libft/ft_lstadd_back.o: libft/ft_lstadd_back.c.o
 
@@ -973,9 +973,9 @@ help:
 	@echo "... libft/ft_isdigit.o"
 	@echo "... libft/ft_isdigit.i"
 	@echo "... libft/ft_isdigit.s"
-	@echo "... libft/ft_isspace_bonus.o"
-	@echo "... libft/ft_isspace_bonus.i"
-	@echo "... libft/ft_isspace_bonus.s"
+	@echo "... libft/ft_isspace.o"
+	@echo "... libft/ft_isspace.i"
+	@echo "... libft/ft_isspace.s"
 	@echo "... libft/ft_lstadd_back.o"
 	@echo "... libft/ft_lstadd_back.i"
 	@echo "... libft/ft_lstadd_back.s"

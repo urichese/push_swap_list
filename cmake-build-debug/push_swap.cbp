@@ -90,7 +90,7 @@
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/libft/ft_isdigit.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/a1234/CLionProjects/push_swap/libft/ft_isspace_bonus.c">
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/libft/ft_isspace.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/libft/ft_lstadd_back.c">

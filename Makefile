@@ -65,4 +65,4 @@ fclean : clean
 	$(MAKE) fclean -C ./libft
 	rm -rf $(NAME)
 
-re : fclean all
+re : fclean all clean

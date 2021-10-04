@@ -1,12 +1,29 @@
 #include "../push_swap.h"
 
-void	del_first_ins(t_ins_list **ins)
+void free_ins(t_ins_list	*ins)
 {
-	t_ins_list *tmp;
+	t_ins_list	*buff;
 
-	tmp = *ins;
-	(*ins)= (*ins)->next;
-	lstdel(tmp);
+	buff = ins;
+	while (ins)
+	{
+		buff = ins;
+		ins = ins->next;
+		free(buff);
+	}
+}
+
+void	del_past_ins(t_ins_list **ins)
+{
+	t_ins_list	*buf;
+
+	buf = *ins;
+	if (buf)
+	{
+		while (buf->next)
+			buf = buf->next;
+		lstdel(buf);
+	}
 }
 
 void	put_ins(t_ins_list **ins, char *name)
@@ -24,8 +41,8 @@ void	print_ins(t_ins_list **ins)
 
 	//zip_ins(ins);
 	len = lstsize(*ins);
-	ft_putnbr_fd(len, 1);
-	ft_putstr_fd("\n", 1);
+	//ft_putnbr_fd(len, 1);
+	//ft_putstr_fd("\n", 1);
 	tmp = *ins;
 	while (tmp)
 	{
@@ -33,5 +50,5 @@ void	print_ins(t_ins_list **ins)
 		ft_putstr_fd("\n", 1);
 		tmp = tmp->next;
 	}
-	//free(ins);
+	free_ins(*ins);
 }

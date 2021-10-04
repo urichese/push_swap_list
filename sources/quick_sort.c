@@ -130,4 +130,5 @@ void	quick_sort(t_ins_list **ins, t_list	**p_a, t_list	**p_b)
 	{
 		quick_sort_part(ins, p_a, p_b, base);
 	}
+	free(base);
 }

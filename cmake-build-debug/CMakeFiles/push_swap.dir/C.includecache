@@ -12,8 +12,8 @@ unistd.h
 stdlib.h
 -
 
-/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c
-../push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/main.c
+push_swap.h
 /Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
 /Users/a1234/CLionProjects/push_swap/sources/push_swap.h

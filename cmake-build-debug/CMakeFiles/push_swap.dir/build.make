@@ -206,18 +206,18 @@ CMakeFiles/push_swap.dir/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/ft_isdigit.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/libft/ft_isdigit.c -o CMakeFiles/push_swap.dir/libft/ft_isdigit.c.s
 
-CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o: ../libft/ft_isspace_bonus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o -c /Users/a1234/CLionProjects/push_swap/libft/ft_isspace_bonus.c
+CMakeFiles/push_swap.dir/libft/ft_isspace.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/libft/ft_isspace.c.o: ../libft/ft_isspace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.dir/libft/ft_isspace.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_isspace.c.o -c /Users/a1234/CLionProjects/push_swap/libft/ft_isspace.c
 
-CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/libft/ft_isspace_bonus.c > CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.i
+CMakeFiles/push_swap.dir/libft/ft_isspace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/ft_isspace.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/a1234/CLionProjects/push_swap/libft/ft_isspace.c > CMakeFiles/push_swap.dir/libft/ft_isspace.c.i
 
-CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/libft/ft_isspace_bonus.c -o CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.s
+CMakeFiles/push_swap.dir/libft/ft_isspace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/ft_isspace.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/a1234/CLionProjects/push_swap/libft/ft_isspace.c -o CMakeFiles/push_swap.dir/libft/ft_isspace.c.s
 
 CMakeFiles/push_swap.dir/libft/ft_memset.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
@@ -478,7 +478,7 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/ft_calloc.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_bzero.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o" \
-"CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o" \
+"CMakeFiles/push_swap.dir/libft/ft_isspace.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_memset.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o" \
@@ -512,7 +512,7 @@ push_swap: CMakeFiles/push_swap.dir/libft/ft_atoi.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_calloc.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_bzero.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o
-push_swap: CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o
+push_swap: CMakeFiles/push_swap.dir/libft/ft_isspace.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_memset.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o

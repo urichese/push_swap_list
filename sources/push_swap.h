@@ -54,7 +54,7 @@ void	lstdel(t_ins_list *lst);
 
 void	put_ins(t_ins_list **ins, char *name);
 void	print_ins(t_ins_list **ins);
-void	del_first_ins(t_ins_list **ins);
+void	del_past_ins(t_ins_list **ins);
 //void	libft/ft_putstr_fd(char *s, int fd);
 
 #endif

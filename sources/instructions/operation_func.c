@@ -20,7 +20,7 @@ void	sa(t_ins_list **ins, t_list **p)
 void	sb(t_ins_list **ins, t_list **a)
 {
 	sa(ins, a);
-	del_first_ins(ins);
+	del_past_ins(ins);
 	put_ins(ins, "sb\0");
 }
 
@@ -41,7 +41,7 @@ void	ra(t_ins_list **ins, t_list **p)
 void	rb(t_ins_list **ins, t_list **b)
 {
 	ra(ins, b);
-	del_first_ins(ins);
+	del_past_ins(ins);
 	put_ins(ins, "rb\0");
 }
 

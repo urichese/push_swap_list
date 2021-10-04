@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_calloc.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o"
-  "CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o"
+  "CMakeFiles/push_swap.dir/libft/ft_isspace.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_lstadd_back.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_lstadd_front.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_lstlast.c.o"

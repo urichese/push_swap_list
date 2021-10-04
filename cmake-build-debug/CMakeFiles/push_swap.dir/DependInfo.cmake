@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/a1234/CLionProjects/push_swap/libft/ft_bzero.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "/Users/a1234/CLionProjects/push_swap/libft/ft_calloc.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_calloc.c.o"
   "/Users/a1234/CLionProjects/push_swap/libft/ft_isdigit.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o"
-  "/Users/a1234/CLionProjects/push_swap/libft/ft_isspace_bonus.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isspace_bonus.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_isspace.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isspace.c.o"
   "/Users/a1234/CLionProjects/push_swap/libft/ft_lstadd_back.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstadd_back.c.o"
   "/Users/a1234/CLionProjects/push_swap/libft/ft_lstadd_front.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstadd_front.c.o"
   "/Users/a1234/CLionProjects/push_swap/libft/ft_lstlast.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstlast.c.o"

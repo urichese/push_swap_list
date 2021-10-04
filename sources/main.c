@@ -1,5 +1,17 @@
 #include "push_swap.h"
 
+void free_list(t_list	*list)
+{
+	t_list	*buff;
+
+	while (list)
+	{
+		buff = list;
+		list = list->next;
+		free(buff);
+	}
+}
+
 int	main(int argc, char **argv)
 {
 	int		*a;
@@ -17,22 +29,18 @@ int	main(int argc, char **argv)
 	}
 	if (is_sorted(a, argc - 1) == 1)
 	{
-		//printf("sorted"); // redo
 		return (0);
 	}
 	list_a = get_list(a, argc - 1);
-	printf("in:\n");
-	print_list(list_a);
 	if (ft_lstsize(list_a) > 5)
 		quick_sort(&ins, &list_a, &list_b);
 	else
 		simple_sort(&ins, &list_a, &list_b);
-	printf("----------\n");
-	printf("sorted:\n");
-	print_list(list_a);
-	printf("----------\n");
-	printf("b:\n");
-	print_list(list_b);
+	//print_list(list_a);
 	print_ins(&ins);
+	free_list(list_a);
+	free_list(list_b);
+	free(a);
+	sleep (1000);
 	return (0);
 }
