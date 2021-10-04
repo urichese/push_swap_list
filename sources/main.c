@@ -31,16 +31,20 @@ int	main(int argc, char **argv)
 	{
 		return (0);
 	}
+	ins = malloc(sizeof(t_ins_list)); //todo refactor
+
 	list_a = get_list(a, argc - 1);
 	if (ft_lstsize(list_a) > 5)
 		quick_sort(&ins, &list_a, &list_b);
 	else
 		simple_sort(&ins, &list_a, &list_b);
 	//print_list(list_a);
+	//ft_putstr_fd("wwwwww", 1);
 	print_ins(&ins);
+	//fflush(stdout); //todo remove
 	free_list(list_a);
 	free_list(list_b);
 	free(a);
-	sleep (1000);
+	free(ins);
 	return (0);
 }

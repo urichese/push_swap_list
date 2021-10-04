@@ -7,7 +7,7 @@ void	lstadd_back(t_ins_list **lst, t_ins_list *new)
 	buf = *lst;
 	if (buf)
 	{
-		while (buf->next)
+		while (buf != NULL && buf->next)
 			buf = buf->next;
 		buf->next = new;
 	}

@@ -70,7 +70,9 @@ void	quick_sort_in(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 	i = 1;
 	while (i != 0) // цикл закидывания обратно тех массивов что уже были в б
 	{
-		while (ft_lstsize(*p_b) != 0) // обработка внутри б пока не пустой
+		while ((*p_b) != NULL && ft_lstsize(*p_b) != 0) // обработка внутри б
+			// пока не
+		// пустой
 			// в б
 		{
 			base->max = base->mid;

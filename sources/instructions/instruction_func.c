@@ -4,7 +4,6 @@ void free_ins(t_ins_list	*ins)
 {
 	t_ins_list	*buff;
 
-	buff = ins;
 	while (ins)
 	{
 		buff = ins;

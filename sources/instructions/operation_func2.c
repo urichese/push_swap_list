@@ -12,8 +12,8 @@ void	rrb(t_ins_list **ins, t_list **b)
 void	rrr(t_ins_list **ins, t_list **a, t_list **b)
 {
 	rra(ins, a);
-	rra(ins, b);
 	del_past_ins(ins);
+	rra(ins, b);
 	del_past_ins(ins);
 	put_ins(ins, "rrr\0");
 }

@@ -49,6 +49,8 @@ void	rra(t_ins_list **ins, t_list **a)
 {
 	t_list	*x;
 
+	if (!a || !(*a))
+		return ;
 	x = ft_lstlast(*a);
 	if (*a == NULL || x == *a)
 		return ;

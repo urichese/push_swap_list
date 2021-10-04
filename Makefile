@@ -50,19 +50,19 @@ INCLUDES = -I./includes
 OBJS = $(SRCS:.c=.o)
 
 $(NAME): $(OBJS)
-	$(MAKE) libft.a -C ./libft
-	$(CC) -Wall -Werror -Wextra $(OBJS) libft/libft.a -o $@
+	@$(MAKE) libft.a -C ./libft
+	@$(CC) -Wall -Werror -Wextra $(OBJS) libft/libft.a -o $@
 
 all : $(NAME)
 
 clean :
-	$(MAKE) clean -C ./libft
-	rm -rf $(SURPL_O)
-	rm -rf $(OBJS)
-	rm -rf *.o
+	@$(MAKE) clean -C ./libft
+	@rm -rf $(SURPL_O)
+	@rm -rf $(OBJS)
+	@rm -rf *.o
 
 fclean : clean
-	$(MAKE) fclean -C ./libft
-	rm -rf $(NAME)
+	@$(MAKE) fclean -C ./libft
+	@rm -rf $(NAME)
 
 re : fclean all clean
