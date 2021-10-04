@@ -19,8 +19,8 @@ void	quick_sort_in_b(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 	j = ft_lstsize(*p_b);
 	while (j > 0) // обработка самого б
 	{
-		if (j < 6)
-			simple_sort_b(ins, p_b, p_a);
+		/*if (j < 4)
+			simple_sort_b(ins, p_b, p_a);*/
 		if ((*p_b) && (*p_b)->order == base->next) //если то что
 			// перекинули равно next то перекидываем вниз a
 		{

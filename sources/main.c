@@ -40,7 +40,7 @@ int	main(int argc, char **argv)
 		quick_sort(&ins, &list_a, &list_b);
 	else
 		simple_sort(&ins, &list_a, &list_b);
-	//print_list(list_a);
+	print_list(list_a);
 	//ft_putstr_fd("wwwwww", 1);
 	print_ins(&ins);
 	//fflush(stdout); //todo remove

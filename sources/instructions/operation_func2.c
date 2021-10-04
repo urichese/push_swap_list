@@ -44,8 +44,13 @@ void	pb_vb(t_ins_list **ins, t_list **a, t_list **b)
 
 void	pb(t_ins_list **ins, t_list **a, t_list **b)
 {
-	pa(ins, b, a);
-	del_past_ins(ins);
+	t_list	*a_element;
+
+	if (ft_lstsize(*a) == 0)
+		return ;
+	a_element = *a;
+	*a = a_element->next;
+	ft_lstadd_front(b, a_element);
 	put_ins(ins, "pb\0");
 }
 

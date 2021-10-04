@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/push_swap_tester" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/push_swap_visualizer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/vis" vcs="Git" />
   </component>

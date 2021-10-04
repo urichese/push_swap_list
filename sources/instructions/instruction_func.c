@@ -50,4 +50,5 @@ void	print_ins(t_ins_list **ins)
 		tmp = tmp->next;
 	}
 	free_ins(*ins);
+	*ins = NULL;
 }
