@@ -11,6 +11,7 @@ typedef struct s_list
 	int 			order;
 	int 			flag;
 	struct s_list	*next;
+	int new;
 }				t_list;
 
 int		ft_isascii(int c);

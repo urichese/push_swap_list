@@ -10,6 +10,7 @@ t_list	*ft_lstnew(int value, int order)
 	lst->value = value;
 	lst->order = order;
 	lst->flag = 0;
+	lst->new = 1;
 	lst->next = NULL;
 	return (lst);
 }
