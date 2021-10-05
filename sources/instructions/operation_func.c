@@ -34,6 +34,7 @@ void	ra(t_ins_list **ins, t_list **p)
 	if (a == NULL || a->next == NULL)
 		return ;
 	*p = a->next;
+	x->flag++;
 	ft_lstadd_back(&a, x);
 	put_ins(ins, "ra\0");
 }

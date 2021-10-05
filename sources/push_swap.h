@@ -10,7 +10,6 @@ typedef struct s_base_list
 	int	next;
 	int	mid;
 	int	max;
-	int	flag;
 }				t_base_list;
 
 typedef struct s_ins_list

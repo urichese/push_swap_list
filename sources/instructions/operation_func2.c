@@ -26,6 +26,7 @@ void	pa(t_ins_list **ins, t_list **a, t_list **b)
 		return ;
 	b_element = *b;
 	*b = b_element->next;
+	b_element->flag++;
 	ft_lstadd_front(a, b_element);
 	put_ins(ins, "pa\0");
 }
@@ -37,6 +38,7 @@ void	pb_vb(t_ins_list **ins, t_list **a, t_list **b)
 	if (ft_lstsize(*b) == 0)
 		return ;
 	b_element = *b;
+	b_element->flag++;
 	*b = b_element->next;
 	ft_lstadd_front(a, b_element);
 	put_ins(ins, "pb\0");
@@ -49,6 +51,7 @@ void	pb(t_ins_list **ins, t_list **a, t_list **b)
 	if (ft_lstsize(*a) == 0)
 		return ;
 	a_element = *a;
+	a_element->flag++;
 	*a = a_element->next;
 	ft_lstadd_front(b, a_element);
 	put_ins(ins, "pb\0");

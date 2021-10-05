@@ -12,14 +12,6 @@ unistd.h
 stdlib.h
 -
 
-/Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func2.c
-stdio.h
--
-stdlib.h
--
-../push_swap.h
-/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
-
 /Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 stdio.h
 -
@@ -27,4 +19,8 @@ stdlib.h
 -
 ../libft/libft.h
 /Users/a1234/CLionProjects/push_swap/libft/libft.h
+
+/Users/a1234/CLionProjects/push_swap/sources/quick_sort.c
+push_swap.h
+/Users/a1234/CLionProjects/push_swap/sources/push_swap.h
 
