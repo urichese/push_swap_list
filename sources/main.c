@@ -8,7 +8,8 @@ void free_list(t_list	*list)
 	{
 		buff = list;
 		list = list->next;
-		free(buff);
+		if (buff)
+			free(buff);
 	}
 }
 
@@ -44,10 +45,7 @@ int	main(int argc, char **argv)
 	//print_list(list_a);
 	print_ins(&ins);
 	//print_list(list_a);
-	//fflush(stdout); //todo remove
-	free_list(list_a);
-	free_list(list_b);
-	free(a);
-	free(ins);
+	if (list_a)
+		free_list(list_a);
 	return (0);
 }

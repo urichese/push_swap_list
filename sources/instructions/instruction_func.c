@@ -8,7 +8,8 @@ void free_ins(t_ins_list	*ins)
 	{
 		buff = ins;
 		ins = ins->next;
-		free(buff);
+		if (buff)
+			free(buff);
 	}
 }
 
