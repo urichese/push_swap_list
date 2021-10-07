@@ -19,7 +19,7 @@ int 	*check(int argc, char **argv)
 			return (NULL);
 		}
 		c = ft_atoi(argv[i + 1]);
-		if (c < -214748364 - 1 || a[i] > 2147483647)
+		if (c < -214748364 - 1 || c > 2147483647)
 		{
 			free(a);
 			return (NULL);
