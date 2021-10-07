@@ -8,8 +8,11 @@ void free_ins(t_ins_list	*ins)
 	{
 		buff = ins;
 		ins = ins->next;
-		if (buff)
+		if (buff != NULL)
+		{
 			free(buff);
+			buff = NULL;
+		}
 	}
 }
 
@@ -23,6 +26,7 @@ void	del_past_ins(t_ins_list **ins)
 		while (buf->next)
 			buf = buf->next;
 		lstdel(buf);
+		buf = NULL;
 	}
 }
 

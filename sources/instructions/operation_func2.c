@@ -2,10 +2,16 @@
 #include <stdlib.h>
 #include "../push_swap.h"
 
-void	rrb(t_ins_list **ins, t_list **b)
+void	rrb(t_ins_list **ins, t_list **p)
 {
-	rra(ins, b);
-	del_past_ins(ins);
+	t_list	*x;
+
+	if (!p || !(*p))
+		return ;
+	x = ft_lstlast(*p);
+	if (*p == NULL || x == *p)
+		return ;
+	ft_lstadd_front(p, x);
 	put_ins(ins, "rrb\0");
 }
 

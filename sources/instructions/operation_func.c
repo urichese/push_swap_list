@@ -17,10 +17,18 @@ void	sa(t_ins_list **ins, t_list **p)
 	put_ins(ins, "sa\0");
 }
 
-void	sb(t_ins_list **ins, t_list **a)
+void	sb(t_ins_list **ins, t_list **p)
 {
-	sa(ins, a);
-	del_past_ins(ins);
+	t_list	*x;
+	t_list	*y;
+	t_list	*a;
+
+	a = *p;
+	x = a;
+	y = a->next;
+	x->next = y->next;
+	y->next = x;
+	*p = y;
 	put_ins(ins, "sb\0");
 }
 
@@ -39,22 +47,30 @@ void	ra(t_ins_list **ins, t_list **p)
 	put_ins(ins, "ra\0");
 }
 
-void	rb(t_ins_list **ins, t_list **b)
+void	rb(t_ins_list **ins, t_list **p)
 {
-	ra(ins, b);
-	del_past_ins(ins);
+	t_list	*x;
+	t_list	*a;
+
+	a = *p;
+	x = a;
+	if (a == NULL || a->next == NULL)
+		return ;
+	*p = a->next;
+	x->flag++;
+	ft_lstadd_back(&a, x);
 	put_ins(ins, "rb\0");
 }
 
-void	rra(t_ins_list **ins, t_list **a)
+void	rra(t_ins_list **ins, t_list **p)
 {
 	t_list	*x;
 
-	if (!a || !(*a))
+	if (!p || !(*p))
 		return ;
-	x = ft_lstlast(*a);
-	if (*a == NULL || x == *a)
+	x = ft_lstlast(*p);
+	if (*p == NULL || x == *p)
 		return ;
-	ft_lstadd_front(a, x);
+	ft_lstadd_front(p, x);
 	put_ins(ins, "rra\0");
 }

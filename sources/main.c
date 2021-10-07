@@ -25,11 +25,13 @@ int	main(int argc, char **argv)
 	a = check(argc, argv);
 	if (a == NULL)
 	{
-		ft_putstr_fd("Error", 2);
+		ft_putstr_fd("Error\n", 2);
 		return (0);
 	}
 	if (is_sorted(a, argc - 1) == 1)
 	{
+		free(a);
+		a = NULL;
 		return (0);
 	}
 	//ins = malloc(sizeof(t_ins_list)); //todo refactor
@@ -44,6 +46,7 @@ int	main(int argc, char **argv)
 	//ft_putstr_fd("wwwwww", 1);
 	//print_list(list_a);
 	print_ins(&ins);
+	free(a);
 	//print_list(list_a);
 	if (list_a)
 		free_list(list_a);

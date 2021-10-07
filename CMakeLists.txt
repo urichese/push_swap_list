@@ -3,7 +3,7 @@ project(test/push_swap C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(push_swap_visualizer/push_swap
+add_executable(push_swap
         sources/main.c
         sources/push_swap.h
         sources/parsing/parse_func.c

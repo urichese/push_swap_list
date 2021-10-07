@@ -3,5 +3,8 @@
 void	lstdel(t_ins_list *lst)
 {
 	if (lst)
+	{
 		free(lst);
+		lst = NULL;
+	}
 }
