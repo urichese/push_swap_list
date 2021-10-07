@@ -62,11 +62,9 @@ void	quick_sort_in_b(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 	int	j;
 
 	j = ft_lstsize(*p_b);
-	while ((*p_b) != NULL && j > 0) // обработка самого б
+	while ((*p_b) != NULL && j > 0)
 	{
-		/*if (j < 4)
-			simple_sort_b(ins, p_b, p_a);*/
-		if ((*p_b)->order == base->next) //если next то в на место
+		if ((*p_b)->order == base->next)
 		{
 			pa(ins, p_a, p_b);
 			ra(ins, p_a);
@@ -84,21 +82,18 @@ void	quick_sort_in_b(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 void	work_in_b(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 					  t_base_list	*base)
 {
-	while ((*p_b) != NULL && ((*p_a)->new != 1 || (*p_a)->flag != -1 )) //
-		// totцикл
-		// закидывания обратно тех массивов что уже были в б
+	while ((*p_b) != NULL || (*p_a)->new != 1)
 	{
 		while ((*p_b) != NULL && ft_lstsize(*p_b) != 0) // обработка внутри б
 		{
 			base->max = get_max(*p_b);
 			base->mid = (base->max + base->next) / 2;
-			//ft_putnbr_fd(base->mid, 1);
-			//ft_putstr_fd("--", 1);
-			//ft_putnbr_fd((*p_b)->order, 1);
 			quick_sort_in_b(ins, p_a, p_b, base);
 		}
 		if ((*p_a)->new != 1 && (*p_a)->flag != -1)
 			put_from_a(ins, p_a, p_b, base);
+		if (is_lstsorted(*p_a) == 1)
+			break ;
 	}
 }
 void	quick_sort_in(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
