@@ -1,4 +1,4 @@
-# Install script for directory: /Users/urichese/Desktop/push_swap_list
+# Install script for directory: /Users/a1234/CLionProjects/push_swap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,52 +1,44 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "C"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_atoi.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_bzero.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_calloc.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_calloc.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_isdigit.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_isspace.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isspace.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_lstadd_back.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstadd_back.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_lstadd_front.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstadd_front.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_lstlast.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstlast.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_lstnew.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstnew.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_lstsize.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstsize.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_memset.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memset.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_putchar_fd.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putchar_fd.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_putnbr_fd.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o"
-  "/Users/urichese/Desktop/push_swap_list/libft/ft_putstr_fd.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/instructions/instruction_func.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/instructions/lstadd_back.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/instructions/lstadd_front.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/instructions/lstdel.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/instructions/lstlast.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/instructions/lstnew.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/instructions/lstsize.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/instructions/operation_func.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/instructions/operation_func2.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/main.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/main.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/parsing/check_func.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parsing/check_func.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/parsing/parse_func.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/parsing/parse_func2.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/quick_sort.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/quick_sort.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/simple_sort.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/simple_sort.c.o"
-  "/Users/urichese/Desktop/push_swap_list/sources/simple_sort_b.c" "/Users/urichese/Desktop/push_swap_list/cmake-build-debug/CMakeFiles/push_swap.dir/sources/simple_sort_b.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_atoi.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_bzero.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_calloc.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_calloc.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_isdigit.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isdigit.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_isspace.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isspace.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_lstadd_back.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstadd_back.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_lstadd_front.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstadd_front.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_lstlast.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstlast.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_lstnew.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstnew.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_lstsize.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_lstsize.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_memset.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_memset.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_putchar_fd.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putchar_fd.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_putnbr_fd.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_putstr_fd.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_back.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_front.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstdel.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstdel.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstlast.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstlast.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstnew.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstnew.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstsize.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstsize.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/operation_func.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/instructions/operation_func2.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/operation_func2.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/main.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/main.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/parsing/check_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parsing/check_func.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parsing/parse_func.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/parsing/parse_func2.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/parsing/parse_func2.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/quick_sort.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/quick_sort.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/simple_sort.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/simple_sort.c.o"
+  "/Users/a1234/CLionProjects/push_swap/sources/simple_sort_b.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/simple_sort_b.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  )
-
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.

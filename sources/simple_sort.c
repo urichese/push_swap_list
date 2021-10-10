@@ -28,7 +28,14 @@ void	sort_3(t_ins_list **ins, t_list	**p_a)
 		rra(ins, p_a);
 		return ;
 	}
-	if (a->value > a->next->value && a->value > a->next->next->value)
+	if (a->value > a->next->value && a->value > a->next->next->value &&
+			a->next->value < a->next->next->value)
+	{
+		ra(ins, p_a);
+		return ;
+	}
+	if (a->value > a->next->value && a->value > a->next->next->value &&
+									 a->next->value > a->next->next->value)
 	{
 		sa(ins, p_a);
 		rra(ins, p_a);

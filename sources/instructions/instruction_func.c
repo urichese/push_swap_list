@@ -45,8 +45,6 @@ void	print_ins(t_ins_list **ins)
 
 	//zip_ins(ins);
 	len = lstsize(*ins);
-	//ft_putnbr_fd(len, 1);
-	//ft_putstr_fd("\n", 1);
 	tmp = *ins;
 	while (tmp)
 	{
