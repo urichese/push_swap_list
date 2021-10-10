@@ -141,5 +141,6 @@ void	quick_sort(t_ins_list **ins, t_list	**p_a, t_list	**p_b)
 	}
 	while (is_lstsorted(*p_a) == 0 || (*p_b) != NULL) // todo
 		quick_sort_in(ins, p_a, p_b, base);
-	free(base);
+	if (base)
+		free(base);
 }

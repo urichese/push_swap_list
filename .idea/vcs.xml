@@ -2,7 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Push_Swap_Tester" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/push_swap_tester" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/push_swap_visualizer" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/t" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/test" vcs="Git" />

@@ -19,7 +19,8 @@ t_list	*get_list(int *a, int len)
 		tmp = tmp->next;
 	}
 	tmp->next = NULL;
-	free(a_sorted);
+	if (a_sorted)
+		free(a_sorted);
 	return (list);
 }
 
