@@ -19,7 +19,7 @@ SRCS =  sources/instructions/instruction_func.c \
         sources/main.c \
         sources/quick_sort.c \
         sources/simple_sort.c \
-        sources/simple_sort_b.c \
+        sources/simple_sort2.c \
 
 SURPL_O = sources/instructions/instruction_func.o \
 		  sources/instructions/lstadd_back.o \
