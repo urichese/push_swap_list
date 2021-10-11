@@ -55,6 +55,23 @@ void put_from_a(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 			pb(ins, p_a, p_b);
 		i--;
 	}
+	if (i == 2)
+	{
+		base->max = ft_lstsize(*p_a)/2;
+		base->mid = (base->max + base->next) / 2;
+		while ((*p_a)->flag != 1) // put b from 1 to mid
+		{
+			if ((*p_a)->order > base->mid)
+				ra(ins, p_a);
+			else
+			{
+				(*p_a)->new = 0;
+				pb(ins, p_a, p_b);
+			}
+		}
+		while (get_lstlast(*p_a)->flag != -1) // крутим назад
+			rra(ins, p_a);
+	}
 	while (i == (*p_a)->flag && i != -1) // перекидывание кучи что были в b
 	{
 		if ((*p_a)->order == base->next)
@@ -114,6 +131,12 @@ void	quick_sort_in(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 					  t_base_list	*base)
 {
 	work_in_b(ins, p_a, p_b, base);
+	while ((*p_a)->order == base->next)
+	{
+		ra(ins, p_a);
+		get_lstlast(*p_a)->flag = -1;
+		base->next++;
+	}
 	base->max = ft_lstsize(*p_a);
 	base->mid = (base->max + base->next) / 2;
 	while ((*p_a)->flag != -1) // put b from 1 to mid
@@ -128,6 +151,7 @@ void	quick_sort_in(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 	}
 	while (get_lstlast(*p_a)->flag != -1) // крутим назад
 		rra(ins, p_a);
+
 }
 
 void	quick_sort(t_ins_list **ins, t_list	**p_a, t_list	**p_b)

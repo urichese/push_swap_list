@@ -23,13 +23,3 @@ t_list	*get_list(int *a, int len)
 		free(a_sorted);
 	return (list);
 }
-
-void	print_list(t_list	*a)
-{
-	while (a)
-	{
-		printf("a->value = %d, a->flag = %d, a->order = %d \n", a->value,
-			   a->flag, a->order);
-		a = a->next;
-	}
-}

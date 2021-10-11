@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memccpy.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: urichese <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/04/22 19:53:22 by urichese          #+#    #+#             */
+/*   Updated: 2021/04/22 19:53:25 by urichese         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef LIBFT_H
 
 # define LIBFT_H
@@ -8,10 +20,10 @@
 typedef struct s_list
 {
 	int				value;
-	int 			order;
-	int 			flag;
+	int				order;
+	int				flag;
 	struct s_list	*next;
-	int new;
+	int				new;
 }				t_list;
 
 int		ft_isascii(int c);
