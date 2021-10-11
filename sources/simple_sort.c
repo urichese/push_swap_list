@@ -82,12 +82,25 @@ void	sort_4(t_ins_list **ins, t_list	**p_a, t_list	**p_b)
 	if (b->value < a->value)
 		pa(ins, p_a, p_b);
 }
+t_list	*get_last(t_list *a)
+{
+	t_list *tmp;
 
+
+	tmp = a;
+	while (tmp->next)
+	{
+		tmp = tmp->next;
+	}
+	return tmp;
+}
 void	sort_5(t_ins_list **ins, t_list	**p_a, t_list	**p_b)
 {
 	t_list	*a;
 	t_list	*b;
 
+	while ((*p_a)->order > get_last(*p_a)->order)
+		ra(ins, p_a);
 	pb(ins, p_a, p_b);
 	sort_4(ins, p_a, p_b);
 	a = *p_a;

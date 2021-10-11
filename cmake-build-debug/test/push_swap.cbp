@@ -120,6 +120,9 @@
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/libft/ft_putstr_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/a1234/CLionProjects/push_swap/libft/ft_strcmp.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c">
 			<Option target="push_swap"/>
 		</Unit>

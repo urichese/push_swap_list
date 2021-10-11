@@ -26,6 +26,7 @@ add_executable(push_swap
         libft/ft_lstadd_front.c
         libft/ft_lstlast.c
         libft/ft_lstsize.c
+        libft/ft_strcmp.c
         sources/quick_sort.c
         sources/instructions/instruction_func.c
         sources/instructions/operation_func.c

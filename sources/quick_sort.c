@@ -43,7 +43,19 @@ void put_from_a(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 	int	i;
 
 	i = (*p_a)->flag;
-	while (i == (*p_a)->flag) // перекидывание кучи что были в b
+	while ((*p_a)->flag != (*p_a)->next->flag)
+	{
+		if ((*p_a)->order == base->next)
+		{
+			ra(ins, p_a);
+			get_lstlast(*p_a)->flag = -1;
+			base->next++;
+		}
+		else
+			pb(ins, p_a, p_b);
+		i--;
+	}
+	while (i == (*p_a)->flag && i != -1) // перекидывание кучи что были в b
 	{
 		if ((*p_a)->order == base->next)
 		{
@@ -64,6 +76,8 @@ void	quick_sort_in_b(t_ins_list **ins, t_list	**p_a, t_list	**p_b,
 	j = ft_lstsize(*p_b);
 	while ((*p_b) != NULL && j > 0)
 	{
+		if (j == 2 || j == 3)
+			simple_sort_b(ins, p_b);
 		if ((*p_b)->order == base->next)
 		{
 			pa(ins, p_a, p_b);

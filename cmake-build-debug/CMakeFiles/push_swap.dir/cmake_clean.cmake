@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/libft/ft_putchar_fd.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o"
+  "CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o"
   "CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o"
   "CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o"
   "CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o"

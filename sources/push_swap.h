@@ -41,7 +41,7 @@ t_list	*get_list(int *a, int len);
 void	print_list(t_list	*a);
 
 void	simple_sort(t_ins_list **ins, t_list	**a, t_list	**b);
-void	simple_sort_b(t_ins_list **ins, t_list	**p_a, t_list	**p_b);
+void	simple_sort_b(t_ins_list **ins, t_list	**p_a);
 void	quick_sort(t_ins_list **ins, t_list	**p_a, t_list	**p_b);
 
 int	lstsize(t_ins_list *lst);

@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/a1234/CLionProjects/push_swap/libft/ft_putchar_fd.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putchar_fd.c.o"
   "/Users/a1234/CLionProjects/push_swap/libft/ft_putnbr_fd.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o"
   "/Users/a1234/CLionProjects/push_swap/libft/ft_putstr_fd.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o"
+  "/Users/a1234/CLionProjects/push_swap/libft/ft_strcmp.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/instructions/instruction_func.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_back.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstadd_back.c.o"
   "/Users/a1234/CLionProjects/push_swap/sources/instructions/lstadd_front.c" "/Users/a1234/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sources/instructions/lstadd_front.c.o"

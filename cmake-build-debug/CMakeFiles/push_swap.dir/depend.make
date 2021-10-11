@@ -43,6 +43,9 @@ CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
 CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o: ../libft/libft.h
 
+CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
+CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o: ../libft/libft.h
+
 CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../sources/instructions/instruction_func.c
 CMakeFiles/push_swap.dir/sources/instructions/instruction_func.c.o: ../sources/push_swap.h
